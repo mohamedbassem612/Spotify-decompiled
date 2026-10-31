@@ -1,0 +1,6 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class l1v implements p1v {
+    public static final l1v a = new l1v();
+}

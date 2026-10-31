@@ -1,0 +1,10 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final class h1p {
+    public final /* synthetic */ fwo a;
+
+    public h1p(fwo fwoVar) {
+        this.a = fwoVar;
+    }
+}

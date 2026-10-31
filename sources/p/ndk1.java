@@ -1,0 +1,7 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes3.dex */
+public final class ndk1 {
+    public int a;
+    public float b;
+}

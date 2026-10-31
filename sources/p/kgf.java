@@ -1,0 +1,121 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final class kgf extends hab0 implements vu30 {
+    public final /* synthetic */ asf N0;
+    public final /* synthetic */ j780 O0;
+    public final /* synthetic */ h7f P0;
+    public final /* synthetic */ ig31 Q0;
+    public final /* synthetic */ i2j0 R0;
+    public final /* synthetic */ njf S0;
+    public final /* synthetic */ hn50 T0;
+    public final /* synthetic */ h001 U0;
+    public final /* synthetic */ xif V0;
+    public final /* synthetic */ bqm W0;
+    public final /* synthetic */ ahs0 X;
+    public final /* synthetic */ yyh X0;
+    public final /* synthetic */ f5f Y;
+    public final /* synthetic */ ysd1 Y0;
+    public final /* synthetic */ u7i1 Z;
+    public final /* synthetic */ gv2 Z0;
+    public final /* synthetic */ uef a;
+    public final /* synthetic */ zlp0 a1;
+    public final /* synthetic */ iu30 b;
+    public final /* synthetic */ cbd0 b1;
+    public final /* synthetic */ d0r c;
+    public final /* synthetic */ bgd0 c1;
+    public final /* synthetic */ String d;
+    public final /* synthetic */ tvu0 d1;
+    public final /* synthetic */ quc0 e;
+    public final /* synthetic */ uuu0 e1;
+    public final /* synthetic */ bzi0 f;
+    public final /* synthetic */ onu0 f1;
+    public final /* synthetic */ boolean g;
+    public final /* synthetic */ znb0 g1;
+    public final /* synthetic */ r171 h;
+    public final /* synthetic */ ynb0 h1;
+    public final /* synthetic */ y0f i;
+    public final /* synthetic */ res i1;
+    public final /* synthetic */ rwj j1;
+    public final /* synthetic */ qim0 k1;
+    public final /* synthetic */ boolean l1;
+    public final /* synthetic */ boolean m1;
+    public final /* synthetic */ boolean n1;
+    public final /* synthetic */ boolean o1;
+    public final /* synthetic */ boolean p1;
+    public final /* synthetic */ boolean q1;
+    public final /* synthetic */ boolean r1;
+    public final /* synthetic */ boolean s1;
+    public final /* synthetic */ ymq0 t;
+    public final /* synthetic */ boolean t1;
+    public final /* synthetic */ boolean u1;
+    public final /* synthetic */ boolean v1;
+    public final /* synthetic */ boolean w1;
+    public final /* synthetic */ boolean x1;
+    public final /* synthetic */ boolean y1;
+    public final /* synthetic */ boolean z1;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public kgf(uef uefVar, iu30 iu30Var, d0r d0rVar, String str, quc0 quc0Var, bzi0 bzi0Var, boolean z, r171 r171Var, y0f y0fVar, ymq0 ymq0Var, ahs0 ahs0Var, f5f f5fVar, u7i1 u7i1Var, asf asfVar, j780 j780Var, h7f h7fVar, ig31 ig31Var, i2j0 i2j0Var, njf njfVar, hn50 hn50Var, h001 h001Var, xif xifVar, bqm bqmVar, yyh yyhVar, ysd1 ysd1Var, gv2 gv2Var, zlp0 zlp0Var, cbd0 cbd0Var, bgd0 bgd0Var, tvu0 tvu0Var, uuu0 uuu0Var, onu0 onu0Var, znb0 znb0Var, ynb0 ynb0Var, res resVar, rwj rwjVar, qim0 qim0Var, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6, boolean z7, boolean z8, boolean z9, boolean z10, boolean z11, boolean z12, boolean z13, boolean z14, boolean z15, boolean z16, int i) {
+        super(2);
+        this.a = uefVar;
+        this.b = iu30Var;
+        this.c = d0rVar;
+        this.d = str;
+        this.e = quc0Var;
+        this.f = bzi0Var;
+        this.g = z;
+        this.h = r171Var;
+        this.i = y0fVar;
+        this.t = ymq0Var;
+        this.X = ahs0Var;
+        this.Y = f5fVar;
+        this.Z = u7i1Var;
+        this.N0 = asfVar;
+        this.O0 = j780Var;
+        this.P0 = h7fVar;
+        this.Q0 = ig31Var;
+        this.R0 = i2j0Var;
+        this.S0 = njfVar;
+        this.T0 = hn50Var;
+        this.U0 = h001Var;
+        this.V0 = xifVar;
+        this.W0 = bqmVar;
+        this.X0 = yyhVar;
+        this.Y0 = ysd1Var;
+        this.Z0 = gv2Var;
+        this.a1 = zlp0Var;
+        this.b1 = cbd0Var;
+        this.c1 = bgd0Var;
+        this.d1 = tvu0Var;
+        this.e1 = uuu0Var;
+        this.f1 = onu0Var;
+        this.g1 = znb0Var;
+        this.h1 = ynb0Var;
+        this.i1 = resVar;
+        this.j1 = rwjVar;
+        this.k1 = qim0Var;
+        this.l1 = z2;
+        this.m1 = z3;
+        this.n1 = z4;
+        this.o1 = z5;
+        this.p1 = z6;
+        this.q1 = z7;
+        this.r1 = z8;
+        this.s1 = z9;
+        this.t1 = z10;
+        this.u1 = z11;
+        this.v1 = z12;
+        this.w1 = z13;
+        this.x1 = z14;
+        this.y1 = z15;
+        this.z1 = z16;
+    }
+
+    public final Object invoke(Object obj, Object obj2) {
+        ((Number) obj2).intValue();
+        int iP = czo1.p(1);
+        zso1.f(this.a, this.b, this.c, this.d, this.e, this.f, this.g, this.h, this.i, this.t, this.X, this.Y, this.Z, this.N0, this.O0, this.P0, this.Q0, this.R0, this.S0, this.T0, this.U0, this.V0, this.W0, this.X0, this.Y0, this.Z0, this.a1, this.b1, this.c1, this.d1, this.e1, this.f1, this.g1, this.h1, this.i1, this.j1, this.k1, this.l1, this.m1, this.n1, this.o1, this.p1, this.q1, this.r1, this.s1, this.t1, this.u1, this.v1, this.w1, this.x1, this.y1, this.z1, (b0k) obj, iP);
+        return rih1.a;
+    }
+}

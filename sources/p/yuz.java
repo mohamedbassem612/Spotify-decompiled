@@ -1,0 +1,95 @@
+package p;
+
+import com.spotify.cosmos.util.policy.proto.AlbumDecorationPolicy;
+import com.spotify.cosmos.util.policy.proto.AlbumSyncDecorationPolicy;
+import com.spotify.cosmos.util.policy.proto.ArtistDecorationPolicy;
+import com.spotify.cosmos.util.policy.proto.ShowDecorationPolicy;
+import com.spotify.cosmos.util.policy.proto.TrackDecorationPolicy;
+import com.spotify.playlist.policy.proto.PlaylistDecorationPolicy;
+import com.spotify.playlist.policy.proto.UserDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedAlbumDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedArtistDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedCollectionTracksDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedEpisodeDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedEpisodeMetadataDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedPlaylistDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedProfileDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedShowDecorationPolicy;
+import com.spotify.recently_played_esperanto.proto.RecentlyPlayedTrackDecorationPolicy;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public abstract class yuz {
+    public static final RecentlyPlayedTrackDecorationPolicy a;
+    public static final RecentlyPlayedAlbumDecorationPolicy b;
+    public static final RecentlyPlayedArtistDecorationPolicy c;
+    public static final RecentlyPlayedShowDecorationPolicy d;
+    public static final RecentlyPlayedEpisodeDecorationPolicy e;
+    public static final RecentlyPlayedProfileDecorationPolicy f;
+    public static final RecentlyPlayedPlaylistDecorationPolicy g;
+    public static final RecentlyPlayedCollectionTracksDecorationPolicy h;
+
+    static {
+        vp01 vp01VarN = RecentlyPlayedTrackDecorationPolicy.n();
+        vp01VarN.t();
+        vp01VarN.r();
+        vp01VarN.s((TrackDecorationPolicy) TrackDecorationPolicy.newBuilder().setLink(true).setName(true).build());
+        vp01VarN.n((AlbumDecorationPolicy) AlbumDecorationPolicy.newBuilder().setCovers(true).build());
+        vp01VarN.q((ArtistDecorationPolicy) ArtistDecorationPolicy.newBuilder().setName(true).build());
+        a = (RecentlyPlayedTrackDecorationPolicy) vp01VarN.build();
+        ho01 ho01VarN = RecentlyPlayedAlbumDecorationPolicy.n();
+        ho01VarN.t();
+        ho01VarN.s();
+        ho01VarN.n((AlbumDecorationPolicy) AlbumDecorationPolicy.newBuilder().setLink(true).setName(true).setCovers(true).build());
+        ho01VarN.q((ArtistDecorationPolicy) ArtistDecorationPolicy.newBuilder().setName(true).build());
+        ho01VarN.r((AlbumSyncDecorationPolicy) AlbumSyncDecorationPolicy.newBuilder().setOfflineState(true).build());
+        b = (RecentlyPlayedAlbumDecorationPolicy) ho01VarN.build();
+        jo01 jo01VarN = RecentlyPlayedArtistDecorationPolicy.n();
+        jo01VarN.r();
+        jo01VarN.q();
+        jo01VarN.n((ArtistDecorationPolicy) ArtistDecorationPolicy.newBuilder().setLink(true).setName(true).setPortraits(true).build());
+        c = (RecentlyPlayedArtistDecorationPolicy) jo01VarN.build();
+        rp01 rp01VarN = RecentlyPlayedShowDecorationPolicy.n();
+        rp01VarN.r();
+        rp01VarN.q();
+        rp01VarN.n((ShowDecorationPolicy) ShowDecorationPolicy.newBuilder().setLink(true).setName(true).setCovers(true).setPublisher(true).setMediaTypeEnum(true).setIsBook(true).build());
+        d = (RecentlyPlayedShowDecorationPolicy) rp01VarN.build();
+        bp01 bp01VarN = RecentlyPlayedEpisodeDecorationPolicy.n();
+        bp01VarN.q();
+        cp01 cp01VarN = RecentlyPlayedEpisodeMetadataDecorationPolicy.n();
+        cp01VarN.q();
+        cp01VarN.r();
+        cp01VarN.n();
+        bp01VarN.n((RecentlyPlayedEpisodeMetadataDecorationPolicy) cp01VarN.build());
+        e = (RecentlyPlayedEpisodeDecorationPolicy) bp01VarN.build();
+        fp01 fp01VarN = RecentlyPlayedProfileDecorationPolicy.n();
+        fp01VarN.u();
+        fp01VarN.t();
+        fp01VarN.q();
+        fp01VarN.r();
+        fp01VarN.n();
+        fp01VarN.s();
+        f = (RecentlyPlayedProfileDecorationPolicy) fp01VarN.build();
+        ep01 ep01VarN = RecentlyPlayedPlaylistDecorationPolicy.n();
+        ep01VarN.r();
+        ep01VarN.q();
+        sku0 sku0VarP = PlaylistDecorationPolicy.p();
+        sku0VarP.N();
+        sku0VarP.R();
+        sku0VarP.Z();
+        i8i1 i8i1VarO = UserDecorationPolicy.o();
+        i8i1VarO.s();
+        sku0VarP.Y(i8i1VarO);
+        sku0VarP.W();
+        sku0VarP.T();
+        i8i1 i8i1VarO2 = UserDecorationPolicy.o();
+        i8i1VarO2.s();
+        sku0VarP.Q(i8i1VarO2);
+        ep01VarN.n((PlaylistDecorationPolicy) sku0VarP.build());
+        g = (RecentlyPlayedPlaylistDecorationPolicy) ep01VarN.build();
+        oo01 oo01VarN = RecentlyPlayedCollectionTracksDecorationPolicy.n();
+        oo01VarN.r();
+        oo01VarN.q();
+        oo01VarN.n();
+        h = (RecentlyPlayedCollectionTracksDecorationPolicy) oo01VarN.build();
+    }
+}

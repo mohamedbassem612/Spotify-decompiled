@@ -1,0 +1,34 @@
+package p;
+
+import java.util.ArrayList;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class b7l0 implements w6h1 {
+    public final r6h1 a;
+    public final y6h1 b;
+
+    public b7l0(r6h1 r6h1Var) {
+        this.a = r6h1Var;
+        y6h1 y6h1Var = y6h1.i;
+        x6h1 x6h1VarI = i3o1.i();
+        x6h1VarI.h = "music";
+        x6h1VarI.a = "mobile-gen-alpha-account-creation-close-button";
+        x6h1VarI.f = "1.0.0";
+        x6h1VarI.g = "22.0.0";
+        this.b = x6h1VarI.a();
+    }
+
+    public final r6h1 b() {
+        r6h1 r6h1Var = r6h1.c;
+        ArrayList arrayList = new ArrayList();
+        r6h1 r6h1Var2 = this.a;
+        arrayList.addAll(r6h1Var2.a);
+        arrayList.add(this.b);
+        return new r6h1(arrayList, r6h1Var2.b);
+    }
+
+    public final w7h1 e() {
+        b7x b7xVar = b7x.a;
+        return new w7h1("", "", new z7h1("hit", 1, b7xVar), new x7h1("ui_reveal", 1, b7xVar), this.b, this.a, System.currentTimeMillis());
+    }
+}

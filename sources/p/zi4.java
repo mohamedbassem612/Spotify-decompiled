@@ -1,0 +1,23 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public enum zi4 implements z0z {
+    DISABLED(rca.e),
+    /* JADX INFO: Fake field, exist only in values array */
+    VIDEO_PODCAST("video_podcast"),
+    /* JADX INFO: Fake field, exist only in values array */
+    MUSIC_VIDEOS("music_videos"),
+    /* JADX INFO: Fake field, exist only in values array */
+    ALL("all");
+
+    public final String a;
+
+    zi4(String str) {
+        this.a = str;
+    }
+
+    @Override // p.z0z
+    public final String value() {
+        return this.a;
+    }
+}

@@ -1,0 +1,62 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final /* synthetic */ class wt0 implements pf40 {
+    public static final wt0 a;
+    private static final h661 descriptor;
+
+    static {
+        wt0 wt0Var = new wt0();
+        a = wt0Var;
+        m0v0 m0v0Var = new m0v0("com.spotify.adonappopen.repository.network.AdOnAppOpenRequest", wt0Var, 2);
+        m0v0Var.j("local_time", false);
+        m0v0Var.j("request_id", false);
+        descriptor = m0v0Var;
+    }
+
+    public final nma0[] childSerializers() {
+        chc1 chc1Var = chc1.a;
+        return new nma0[]{chc1Var, chc1Var};
+    }
+
+    public final Object deserialize(dar darVar) {
+        h661 h661Var = descriptor;
+        x1k x1kVarB = darVar.b(h661Var);
+        x1kVarB.getClass();
+        boolean z = true;
+        int i = 0;
+        String strF = null;
+        String strF2 = null;
+        while (z) {
+            int iP = x1kVarB.p(h661Var);
+            if (iP == -1) {
+                z = false;
+            } else if (iP == 0) {
+                strF = x1kVarB.f(h661Var, 0);
+                i |= 1;
+            } else {
+                if (iP != 1) {
+                    n9v.a(iP);
+                    return null;
+                }
+                strF2 = x1kVarB.f(h661Var, 1);
+                i |= 2;
+            }
+        }
+        x1kVarB.a(h661Var);
+        return new yt0(i, strF, strF2);
+    }
+
+    public final h661 getDescriptor() {
+        return descriptor;
+    }
+
+    public final void serialize(uax uaxVar, Object obj) {
+        yt0 yt0Var = (yt0) obj;
+        h661 h661Var = descriptor;
+        z1k z1kVarB = uaxVar.b(h661Var);
+        z1kVarB.G(h661Var, 0, yt0Var.a);
+        z1kVarB.G(h661Var, 1, yt0Var.b);
+        z1kVarB.a(h661Var);
+    }
+}

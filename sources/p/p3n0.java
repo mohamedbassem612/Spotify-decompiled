@@ -1,0 +1,19 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public enum p3n0 implements z0z {
+    START_STOP("start_stop"),
+    /* JADX INFO: Fake field, exist only in values array */
+    CREATE_DESTROY("create_destroy");
+
+    public final String a;
+
+    p3n0(String str) {
+        this.a = str;
+    }
+
+    @Override // p.z0z
+    public final String value() {
+        return this.a;
+    }
+}

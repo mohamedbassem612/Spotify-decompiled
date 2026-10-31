@@ -1,0 +1,18 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes6.dex */
+public final class bnk1 implements cnk1 {
+    public static final bnk1 a = new bnk1();
+
+    public final boolean equals(Object obj) {
+        return this == obj || (obj instanceof bnk1);
+    }
+
+    public final int hashCode() {
+        return -1516499391;
+    }
+
+    public final String toString() {
+        return "TtsToggleTapped";
+    }
+}

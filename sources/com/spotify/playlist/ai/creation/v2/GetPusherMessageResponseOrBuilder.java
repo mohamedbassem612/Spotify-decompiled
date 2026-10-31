@@ -1,0 +1,36 @@
+package com.spotify.playlist.ai.creation.v2;
+
+import p.phc;
+import p.s2j0;
+import p.v2j0;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes10.dex */
+public interface GetPusherMessageResponseOrBuilder extends v2j0 {
+    /* synthetic */ s2j0 getDefaultInstanceForType();
+
+    String getMessageId();
+
+    phc getMessageIdBytes();
+
+    ChatMessagePreferences getMessagePreferences();
+
+    Playlist getPlaylist();
+
+    String getSessionId();
+
+    phc getSessionIdBytes();
+
+    Status getStatus();
+
+    long getSubmitTimestamp();
+
+    long getUpdatedTimestamp();
+
+    boolean hasMessagePreferences();
+
+    boolean hasPlaylist();
+
+    boolean hasStatus();
+
+    /* synthetic */ boolean isInitialized();
+}

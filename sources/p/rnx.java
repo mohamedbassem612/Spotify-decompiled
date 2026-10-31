@@ -1,0 +1,304 @@
+package p;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class rnx extends hux {
+    public static final Parcelable.Creator<rnx> CREATOR;
+    public static final rnx c;
+    public static final byte d;
+
+    static {
+        b180 b180VarB = wpb1.i;
+        if (b180VarB == null) {
+            a180 a180Var = new a180("Encore.Vector.Group16", 16.0f, 16.0f, 16.0f, 16.0f, 0L, 0, false, 96);
+            int i = bui1.a;
+            n6a1 n6a1Var = new n6a1(u7h.b);
+            cwh0 cwh0VarG = lf51.g(3.849f, 10.034f);
+            cwh0VarG.g(-0.021f, -0.465f, 0.026f, -0.93f, 0.139f, -1.381f);
+            cwh0VarG.j(1.669f, 8.653f);
+            cwh0VarG.g(0.143f, -0.303f, 0.375f, -0.556f, 0.665f, -0.724f);
+            cwh0VarG.k(0.922f, -0.532f);
+            cwh0VarG.c(1.63f, 1.63f, false, false, 0.436f, -2.458f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.474f, -1.081f);
+            cwh0VarG.o(-0.014f, -0.287f, 0.057f, -0.563f);
+            cwh0VarG.c(1.12f, 1.12f, false, true, 0.627f, -0.7f);
+            cwh0VarG.c(1.2f, 1.2f, false, true, 0.944f, 0.0f);
+            cwh0VarG.o(0.225f, 0.1f, 0.392f, 0.281f);
+            cwh0VarG.g(0.108f, 0.12f, 0.188f, 0.263f, 0.237f, 0.417f);
+            cwh0VarG.o(0.074f, 0.276f, 0.057f, 0.561f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.475f, 1.084f);
+            cwh0VarG.c(1.6f, 1.6f, false, false, -0.124f, 1.9f);
+            cwh0VarG.g(0.36f, -0.388f, 0.792f, -0.702f, 1.272f, -0.927f);
+            cwh0VarG.v(-0.015f);
+            cwh0VarG.g(0.48f, -0.546f, 0.768f, -1.233f, 0.821f, -1.958f);
+            cwh0VarG.c(3.2f, 3.2f, false, false, -0.135f, -1.132f);
+            cwh0VarG.c(2.657f, 2.657f, false, false, -5.04f, 0.0f);
+            cwh0VarG.g(-0.111f, 0.367f, -0.157f, 0.75f, -0.135f, 1.133f);
+            cwh0VarG.g(0.053f, 0.724f, 0.341f, 1.41f, 0.821f, 1.955f);
+            cwh0VarG.b(0.13f, 0.13f, false, true, 2.565f, 6.0f);
+            cwh0VarG.c(0.13f, 0.13f, false, true, -0.063f, 0.091f);
+            cwh0VarG.k(-0.922f, 0.532f);
+            cwh0VarG.b(3.2f, 3.2f, false, false, -0.004f, 9.396f);
+            cwh0VarG.v(0.75f);
+            cwh0VarG.i(3.866f);
+            cwh0VarG.g(0.001f, -0.033f, -0.01f, -0.071f, -0.013f, -0.112f);
+            cwh0VarG.m(10.568f, -3.4f);
+            cwh0VarG.k(-0.922f, -0.532f);
+            cwh0VarG.c(0.13f, 0.13f, false, true, -0.064f, -0.091f);
+            cwh0VarG.c(0.12f, 0.12f, false, true, 0.028f, -0.1f);
+            cwh0VarG.g(0.48f, -0.546f, 0.768f, -1.233f, 0.821f, -1.958f);
+            cwh0VarG.c(3.3f, 3.3f, false, false, -0.135f, -1.135f);
+            cwh0VarG.b(2.64f, 2.64f, false, false, 12.7f, 1.233f);
+            cwh0VarG.c(2.67f, 2.67f, false, false, -3.042f, 0.64f);
+            cwh0VarG.c(2.65f, 2.65f, false, false, -0.554f, 0.948f);
+            cwh0VarG.g(-0.11f, 0.367f, -0.156f, 0.75f, -0.134f, 1.133f);
+            cwh0VarG.g(0.053f, 0.724f, 0.341f, 1.41f, 0.821f, 1.955f);
+            cwh0VarG.g(0.005f, 0.006f, 0.0f, 0.011f, 0.0f, 0.018f);
+            cwh0VarG.g(0.48f, 0.225f, 0.911f, 0.54f, 1.272f, 0.927f);
+            cwh0VarG.c(1.6f, 1.6f, false, false, -0.125f, -1.907f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.474f, -1.081f);
+            cwh0VarG.o(-0.015f, -0.287f, 0.057f, -0.563f);
+            cwh0VarG.c(1.12f, 1.12f, false, true, 0.627f, -0.7f);
+            cwh0VarG.c(1.2f, 1.2f, false, true, 0.944f, 0.0f);
+            cwh0VarG.o(0.225f, 0.1f, 0.392f, 0.281f);
+            cwh0VarG.o(0.162f, 0.182f, 0.236f, 0.413f);
+            cwh0VarG.g(0.05f, 0.184f, 0.07f, 0.375f, 0.058f, 0.565f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.475f, 1.084f);
+            cwh0VarG.c(1.633f, 1.633f, false, false, 0.438f, 2.456f);
+            cwh0VarG.k(0.922f, 0.532f);
+            cwh0VarG.g(0.29f, 0.169f, 0.52f, 0.421f, 0.664f, 0.724f);
+            cwh0VarG.i(-2.319f);
+            cwh0VarG.g(0.113f, 0.452f, 0.16f, 0.918f, 0.139f, 1.383f);
+            cwh0VarG.g(0.0f, 0.04f, -0.013f, 0.078f, -0.017f, 0.117f);
+            cwh0VarG.i(3.866f);
+            cwh0VarG.v(-0.75f);
+            cwh0VarG.c(3.2f, 3.2f, false, false, -1.58f, -2.778f);
+            cwh0VarG.v(0.004f);
+            cwh0VarG.e();
+            cwh0VarG.l(10.792f, 12.634f);
+            cwh0VarG.j(9.87f, 12.102f);
+            cwh0VarG.c(0.13f, 0.13f, false, true, -0.061f, -0.144f);
+            cwh0VarG.c(0.1f, 0.1f, false, true, 0.025f, -0.047f);
+            cwh0VarG.c(3.33f, 3.33f, false, false, 0.821f, -1.958f);
+            cwh0VarG.c(3.2f, 3.2f, false, false, -0.135f, -1.132f);
+            cwh0VarG.c(2.657f, 2.657f, false, false, -5.041f, 0.0f);
+            cwh0VarG.g(-0.11f, 0.367f, -0.156f, 0.75f, -0.134f, 1.133f);
+            cwh0VarG.g(0.053f, 0.724f, 0.341f, 1.41f, 0.821f, 1.955f);
+            cwh0VarG.c(0.13f, 0.13f, false, true, 0.028f, 0.106f);
+            cwh0VarG.c(0.13f, 0.13f, false, true, -0.063f, 0.091f);
+            cwh0VarG.k(-0.922f, 0.532f);
+            cwh0VarG.c(3.2f, 3.2f, false, false, -1.584f, 2.773f);
+            cwh0VarG.v(0.75f);
+            cwh0VarG.i(8.75f);
+            cwh0VarG.v(-0.75f);
+            cwh0VarG.c(3.2f, 3.2f, false, false, -1.583f, -2.781f);
+            cwh0VarG.e();
+            cwh0VarG.l(5.292f, 14.657f);
+            cwh0VarG.g(0.143f, -0.303f, 0.375f, -0.556f, 0.665f, -0.724f);
+            cwh0VarG.k(0.922f, -0.532f);
+            cwh0VarG.c(1.63f, 1.63f, false, false, 0.436f, -2.458f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.474f, -1.081f);
+            cwh0VarG.o(-0.015f, -0.287f, 0.057f, -0.563f);
+            cwh0VarG.c(1.12f, 1.12f, false, true, 0.627f, -0.7f);
+            cwh0VarG.c(1.2f, 1.2f, false, true, 0.944f, 0.0f);
+            cwh0VarG.o(0.225f, 0.1f, 0.392f, 0.281f);
+            cwh0VarG.g(0.108f, 0.12f, 0.188f, 0.263f, 0.237f, 0.417f);
+            cwh0VarG.o(0.073f, 0.276f, 0.057f, 0.561f);
+            cwh0VarG.c(1.8f, 1.8f, false, true, -0.475f, 1.084f);
+            cwh0VarG.c(1.632f, 1.632f, false, false, 0.438f, 2.456f);
+            cwh0VarG.k(0.922f, 0.532f);
+            cwh0VarG.g(0.29f, 0.169f, 0.52f, 0.421f, 0.664f, 0.724f);
+            cwh0VarG.e();
+            a180.a(a180Var, cwh0VarG.a, n6a1Var, 1.0f, 2, 1.0f);
+            b180VarB = a180Var.b();
+            wpb1.i = b180VarB;
+        }
+        b180 b180VarB2 = sgc1.a;
+        if (b180VarB2 == null) {
+            a180 a180Var2 = new a180("Encore.Vector.Group24", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 96);
+            int i2 = bui1.a;
+            n6a1 n6a1Var2 = new n6a1(u7h.b);
+            cwh0 cwh0VarG2 = lf51.g(6.112f, 13.497f);
+            cwh0VarG2.o(-0.021f, -0.442f, 0.013f, -0.885f);
+            cwh0VarG2.i(-3.94f);
+            cwh0VarG2.g(0.216f, -0.57f, 0.621f, -1.05f, 1.148f, -1.357f);
+            cwh0VarG2.k(1.4f, -0.807f);
+            cwh0VarG2.c(2.337f, 2.337f, false, false, 0.624f, -3.521f);
+            cwh0VarG2.c(2.75f, 2.75f, false, true, -0.654f, -2.63f);
+            cwh0VarG2.b(1.85f, 1.85f, false, true, 5.728f, 3.16f);
+            cwh0VarG2.c(1.915f, 1.915f, false, true, 2.182f, 0.458f);
+            cwh0VarG2.c(1.9f, 1.9f, false, true, 0.389f, 0.677f);
+            cwh0VarG2.c(2.76f, 2.76f, false, true, -0.657f, 2.633f);
+            cwh0VarG2.c(2.33f, 2.33f, false, false, -0.506f, 1.9f);
+            cwh0VarG2.o(0.051f, 0.282f, 0.173f, 0.544f);
+            cwh0VarG2.c(4.0f, 4.0f, false, true, 0.33f, -0.4f);
+            cwh0VarG2.c(5.9f, 5.9f, false, true, 1.978f, -1.418f);
+            cwh0VarG2.k(0.05f, -0.018f);
+            cwh0VarG2.c(4.7f, 4.7f, false, false, 0.721f, -2.215f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, -1.668f);
+            cwh0VarG2.c(3.891f, 3.891f, false, false, -7.383f, 0.0f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, 1.671f);
+            cwh0VarG2.c(4.9f, 4.9f, false, false, 1.21f, 2.887f);
+            cwh0VarG2.c(0.335f, 0.335f, false, true, -0.09f, 0.506f);
+            cwh0VarG2.k(-1.399f, 0.807f);
+            cwh0VarG2.b(4.72f, 4.72f, false, false, -0.007f, 13.61f);
+            cwh0VarG2.v(1.0f);
+            cwh0VarG2.j(6.27f, 14.61f);
+            cwh0VarG2.c(6.6f, 6.6f, false, true, -0.158f, -1.114f);
+            hrt.o(cwh0VarG2, 21.661f, 9.523f, 20.261f, 8.715f);
+            cwh0VarG2.c(0.33f, 0.33f, false, true, -0.162f, -0.231f);
+            cwh0VarG2.c(0.33f, 0.33f, false, true, 0.072f, -0.273f);
+            cwh0VarG2.c(4.9f, 4.9f, false, false, 1.212f, -2.889f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, -1.668f);
+            cwh0VarG2.c(3.89f, 3.89f, false, false, -5.967f, -1.929f);
+            cwh0VarG2.b(3.9f, 3.9f, false, false, 13.8f, 3.654f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, 1.671f);
+            cwh0VarG2.g(0.05f, 0.787f, 0.3f, 1.549f, 0.723f, 2.214f);
+            cwh0VarG2.k(0.048f, 0.018f);
+            cwh0VarG2.g(0.75f, 0.33f, 1.423f, 0.813f, 1.977f, 1.418f);
+            cwh0VarG2.g(0.12f, 0.13f, 0.227f, 0.268f, 0.331f, 0.4f);
+            cwh0VarG2.c(2.3f, 2.3f, false, false, -0.334f, -2.451f);
+            cwh0VarG2.c(2.75f, 2.75f, false, true, -0.655f, -2.63f);
+            cwh0VarG2.c(1.85f, 1.85f, false, true, 1.028f, -1.136f);
+            cwh0VarG2.c(1.91f, 1.91f, false, true, 2.18f, 0.458f);
+            cwh0VarG2.c(1.9f, 1.9f, false, true, 0.388f, 0.677f);
+            cwh0VarG2.c(2.76f, 2.76f, false, true, -0.656f, 2.633f);
+            cwh0VarG2.c(2.337f, 2.337f, false, false, 0.624f, 3.519f);
+            cwh0VarG2.k(1.4f, 0.808f);
+            cwh0VarG2.g(0.53f, 0.308f, 0.938f, 0.789f, 1.155f, 1.362f);
+            cwh0VarG2.i(-3.942f);
+            cwh0VarG2.o(0.035f, 0.442f, 0.014f, 0.885f);
+            cwh0VarG2.c(6.5f, 6.5f, false, true, -0.165f, 1.115f);
+            cwh0VarG2.i(6.277f);
+            cwh0VarG2.v(-1.0f);
+            cwh0VarG2.c(4.72f, 4.72f, false, false, -2.332f, -4.092f);
+            cwh0VarG2.m(-5.499f, 8.056f);
+            cwh0VarG2.k(-1.4f, -0.808f);
+            cwh0VarG2.c(0.33f, 0.33f, false, true, -0.156f, -0.376f);
+            cwh0VarG2.c(0.3f, 0.3f, false, true, 0.067f, -0.128f);
+            cwh0VarG2.c(4.9f, 4.9f, false, false, 1.211f, -2.89f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, -1.668f);
+            cwh0VarG2.c(3.891f, 3.891f, false, false, -7.382f, 0.0f);
+            cwh0VarG2.c(4.8f, 4.8f, false, false, -0.2f, 1.671f);
+            cwh0VarG2.c(4.9f, 4.9f, false, false, 1.21f, 2.887f);
+            cwh0VarG2.c(0.334f, 0.334f, false, true, -0.09f, 0.506f);
+            cwh0VarG2.k(-1.4f, 0.808f);
+            cwh0VarG2.c(4.72f, 4.72f, false, false, -2.333f, 4.088f);
+            cwh0VarG2.v(1.0f);
+            cwh0VarG2.i(12.997f);
+            cwh0VarG2.v(-1.0f);
+            cwh0VarG2.c(4.72f, 4.72f, false, false, -2.324f, -4.09f);
+            cwh0VarG2.m(-8.48f, 3.088f);
+            cwh0VarG2.c(2.67f, 2.67f, false, true, 1.15f, -1.356f);
+            cwh0VarG2.k(1.399f, -0.808f);
+            cwh0VarG2.c(2.334f, 2.334f, false, false, 0.625f, -3.52f);
+            cwh0VarG2.c(2.75f, 2.75f, false, true, -0.655f, -2.63f);
+            cwh0VarG2.c(1.86f, 1.86f, false, true, 1.028f, -1.136f);
+            cwh0VarG2.c(1.93f, 1.93f, false, true, 1.54f, 0.0f);
+            cwh0VarG2.c(1.85f, 1.85f, false, true, 1.028f, 1.135f);
+            cwh0VarG2.g(0.079f, 0.296f, 0.11f, 0.602f, 0.094f, 0.908f);
+            cwh0VarG2.c(2.9f, 2.9f, false, true, -0.75f, 1.725f);
+            cwh0VarG2.c(2.335f, 2.335f, false, false, 0.624f, 3.518f);
+            cwh0VarG2.k(1.4f, 0.808f);
+            cwh0VarG2.g(0.526f, 0.308f, 0.93f, 0.786f, 1.147f, 1.356f);
+            cwh0VarG2.e();
+            a180.a(a180Var2, cwh0VarG2.a, n6a1Var2, 1.0f, 2, 1.0f);
+            b180VarB2 = a180Var2.b();
+            sgc1.a = b180VarB2;
+        }
+        dsx dsxVar = new dsx(b180VarB, b180VarB2);
+        b180 b180VarB3 = w6d1.b;
+        if (b180VarB3 == null) {
+            a180 a180Var3 = new a180("Encore.Vector.GroupActive16", 16.0f, 16.0f, 16.0f, 16.0f, 0L, 0, false, 96);
+            int i3 = bui1.a;
+            n6a1 n6a1Var3 = new n6a1(u7h.b);
+            cwh0 cwh0VarG3 = lf51.g(4.538f, 7.513f);
+            cwh0VarG3.g(0.16f, -0.482f, 0.42f, -0.925f, 0.761f, -1.3f);
+            cwh0VarG3.g(0.072f, -0.079f, 0.159f, -0.139f, 0.237f, -0.21f);
+            cwh0VarG3.k(-0.2f, -0.113f);
+            cwh0VarG3.c(0.667f, 0.667f, false, true, -0.179f, -1.0f);
+            cwh0VarG3.k(0.232f, -0.278f);
+            cwh0VarG3.c(2.84f, 2.84f, false, false, 0.714f, -1.677f);
+            cwh0VarG3.c(2.8f, 2.8f, false, false, -0.106f, -0.937f);
+            cwh0VarG3.b(2.07f, 2.07f, false, false, 4.853f, 0.74f);
+            cwh0VarG3.c(2.12f, 2.12f, false, false, -2.415f, 0.508f);
+            cwh0VarG3.c(2.1f, 2.1f, false, false, -0.435f, 0.75f);
+            cwh0VarG3.c(2.8f, 2.8f, false, false, -0.106f, 0.937f);
+            cwh0VarG3.g(0.047f, 0.622f, 0.298f, 1.212f, 0.714f, 1.677f);
+            cwh0VarG3.k(0.232f, 0.278f);
+            cwh0VarG3.c(0.666f, 0.666f, false, true, -0.179f, 1.0f);
+            cwh0VarG3.k(-1.331f, 0.768f);
+            cwh0VarG3.b(2.67f, 2.67f, false, false, 0.0f, 8.968f);
+            cwh0VarG3.v(0.034f);
+            cwh0VarG3.i(4.347f);
+            cwh0VarG3.c(4.3f, 4.3f, false, true, 0.191f, -1.489f);
+            cwh0VarG3.m(10.134f, -0.856f);
+            cwh0VarG3.k(-1.331f, -0.768f);
+            cwh0VarG3.c(0.666f, 0.666f, false, true, -0.179f, -1.0f);
+            cwh0VarG3.k(0.232f, -0.278f);
+            cwh0VarG3.c(2.84f, 2.84f, false, false, 0.714f, -1.677f);
+            cwh0VarG3.c(2.8f, 2.8f, false, false, -0.106f, -0.937f);
+            cwh0VarG3.b(2.07f, 2.07f, false, false, 12.858f, 0.739f);
+            cwh0VarG3.c(2.12f, 2.12f, false, false, -2.415f, 0.508f);
+            cwh0VarG3.c(2.1f, 2.1f, false, false, -0.435f, 0.75f);
+            cwh0VarG3.c(2.8f, 2.8f, false, false, -0.106f, 0.937f);
+            cwh0VarG3.g(0.047f, 0.622f, 0.298f, 1.212f, 0.714f, 1.677f);
+            cwh0VarG3.k(0.232f, 0.278f);
+            cwh0VarG3.c(0.665f, 0.665f, false, true, -0.179f, 1.0f);
+            cwh0VarG3.k(-0.2f, 0.113f);
+            cwh0VarG3.g(0.078f, 0.071f, 0.165f, 0.131f, 0.237f, 0.21f);
+            cwh0VarG3.g(0.342f, 0.375f, 0.6f, 0.818f, 0.76f, 1.3f);
+            cwh0VarG3.g(0.15f, 0.48f, 0.214f, 0.984f, 0.186f, 1.487f);
+            cwh0VarG3.h(16.0f);
+            cwh0VarG3.v(-0.034f);
+            cwh0VarG3.c(2.67f, 2.67f, false, false, -1.328f, -2.308f);
+            cwh0VarG3.m(-4.0f, 6.0f);
+            cwh0VarG3.k(-1.331f, -0.769f);
+            cwh0VarG3.c(0.665f, 0.665f, false, true, -0.179f, -1.0f);
+            cwh0VarG3.k(0.232f, -0.278f);
+            cwh0VarG3.c(2.72f, 2.72f, false, false, 0.608f, -2.614f);
+            cwh0VarG3.c(2.1f, 2.1f, false, false, -0.435f, -0.75f);
+            cwh0VarG3.c(2.117f, 2.117f, false, false, -3.124f, 0.0f);
+            cwh0VarG3.c(2.1f, 2.1f, false, false, -0.435f, 0.75f);
+            cwh0VarG3.c(2.8f, 2.8f, false, false, -0.106f, 0.937f);
+            cwh0VarG3.g(0.047f, 0.622f, 0.298f, 1.212f, 0.714f, 1.677f);
+            cwh0VarG3.k(0.232f, 0.278f);
+            cwh0VarG3.c(0.666f, 0.666f, false, true, -0.179f, 1.0f);
+            cwh0VarG3.k(-1.331f, 0.769f);
+            cwh0VarG3.c(2.67f, 2.67f, false, false, -1.333f, 2.309f);
+            cwh0VarG3.u(15.0f);
+            cwh0VarG3.i(8.0f);
+            cwh0VarG3.v(-0.034f);
+            cwh0VarG3.c(2.67f, 2.67f, false, false, -1.333f, -2.305f);
+            cwh0VarG3.e();
+            a180.a(a180Var3, cwh0VarG3.a, n6a1Var3, 1.0f, 2, 1.0f);
+            b180VarB3 = a180Var3.b();
+            w6d1.b = b180VarB3;
+        }
+        c = new rnx(dsxVar, new dsx(b180VarB3, j1e1.p()));
+        d = (byte) 8;
+        CREATOR = new mmx((byte) 29);
+    }
+
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final boolean equals(Object obj) {
+        return this == obj || (obj instanceof rnx);
+    }
+
+    public final int hashCode() {
+        return -1484675510;
+    }
+
+    public final String toString() {
+        return "Group";
+    }
+
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(1);
+    }
+}

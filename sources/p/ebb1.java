@@ -1,0 +1,177 @@
+package p;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public final class ebb1 {
+    public static final kf30 a;
+    public static final kf30 b;
+    public static final kf30 c;
+    public static final kf30 d;
+    public static final kf30 e;
+    public static final heg f;
+    public static final heg g;
+    public static final heg h;
+    public static final heg i;
+    public static final heg j;
+    public static final heg k;
+    public static final heg l;
+    public static final heg m;
+    public static final heg n;
+    public static final heg o;
+
+    /* JADX INFO: renamed from: p, reason: collision with root package name */
+    public static final heg f20p;
+    public static final heg q;
+    public static final heg r;
+    public static final Set s;
+    public static final Set t;
+    public static final heg u;
+    public static final heg v;
+    public static final heg w;
+    public static final heg x;
+    public static final Map y;
+    public static final Map z;
+
+    static {
+        kf30 kf30Var = new kf30("kotlin");
+        a = kf30Var;
+        kf30 kf30VarA = kf30Var.a(ajn0.e("reflect"));
+        b = kf30VarA;
+        kf30Var.a(ajn0.e("experimental"));
+        kf30 kf30VarA2 = kf30Var.a(ajn0.e("collections"));
+        c = kf30VarA2;
+        kf30Var.a(ajn0.e("sequences"));
+        kf30 kf30VarA3 = kf30Var.a(ajn0.e("ranges"));
+        kf30 kf30VarA4 = kf30Var.a(ajn0.e("jvm"));
+        kf30Var.a(ajn0.e("js"));
+        kf30Var.a(ajn0.e("annotations")).a(ajn0.e("jvm"));
+        kf30VarA4.a(ajn0.e("internal"));
+        kf30VarA4.a(ajn0.e("functions"));
+        kf30 kf30VarA5 = kf30Var.a(ajn0.e("annotation"));
+        kf30 kf30VarA6 = kf30Var.a(ajn0.e("internal"));
+        kf30VarA6.a(ajn0.e("ir"));
+        kf30 kf30VarA7 = kf30Var.a(ajn0.e("coroutines"));
+        kf30VarA7.a(ajn0.e("intrinsics"));
+        d = kf30Var.a(ajn0.e("enums"));
+        kf30Var.a(ajn0.e("contracts"));
+        kf30 kf30VarA8 = kf30Var.a(ajn0.e("concurrent")).a(ajn0.e("atomics"));
+        e = kf30VarA8;
+        kf30Var.a(ajn0.e("test"));
+        kf30Var.a(ajn0.e("text"));
+        dm61.z0(kf30Var, kf30VarA2, kf30VarA3, kf30VarA5);
+        dm61.z0(kf30Var, kf30VarA2, kf30VarA3, kf30VarA5, kf30VarA, kf30VarA6, kf30VarA7, kf30VarA8);
+        nyn1.G("Nothing");
+        f = nyn1.G("Unit");
+        g = nyn1.G("Any");
+        h = nyn1.G("Enum");
+        nyn1.G("Annotation");
+        i = nyn1.G("Array");
+        heg hegVarG = nyn1.G("Boolean");
+        j = hegVarG;
+        heg hegVarG2 = nyn1.G("Char");
+        heg hegVarG3 = nyn1.G("Byte");
+        heg hegVarG4 = nyn1.G("Short");
+        heg hegVarG5 = nyn1.G("Int");
+        k = hegVarG5;
+        heg hegVarG6 = nyn1.G("Long");
+        l = hegVarG6;
+        heg hegVarG7 = nyn1.G("Float");
+        heg hegVarG8 = nyn1.G("Double");
+        m = nyn1.P(hegVarG3);
+        n = nyn1.P(hegVarG4);
+        o = nyn1.P(hegVarG5);
+        f20p = nyn1.P(hegVarG6);
+        nyn1.G("CharSequence");
+        q = nyn1.G("String");
+        nyn1.G("Throwable");
+        nyn1.G("Cloneable");
+        nyn1.N("KProperty");
+        nyn1.N("KMutableProperty");
+        nyn1.N("KProperty0");
+        nyn1.N("KMutableProperty0");
+        nyn1.N("KProperty1");
+        nyn1.N("KMutableProperty1");
+        nyn1.N("KProperty2");
+        nyn1.N("KMutableProperty2");
+        r = nyn1.N("KFunction");
+        nyn1.N("KClass");
+        nyn1.N("KCallable");
+        nyn1.N("KType");
+        nyn1.O();
+        nyn1.G("Comparable");
+        nyn1.G("Number");
+        nyn1.G("Function");
+        nyn1.I("SuspendFunction");
+        Set setZ0 = dm61.z0(hegVarG, hegVarG2, hegVarG3, hegVarG4, hegVarG5, hegVarG6, hegVarG7, hegVarG8);
+        s = setZ0;
+        dm61.z0(hegVarG3, hegVarG4, hegVarG5, hegVarG6);
+        Set set = setZ0;
+        int iS = zno1.s(q7h.U(set, 10));
+        if (iS < 16) {
+            iS = 16;
+        }
+        LinkedHashMap linkedHashMap = new LinkedHashMap(iS);
+        for (Object obj : set) {
+            linkedHashMap.put(obj, nyn1.L(((heg) obj).f()));
+        }
+        nyn1.K(linkedHashMap);
+        Set setZ1 = dm61.z0(m, n, o, f20p);
+        t = setZ1;
+        Set set2 = setZ1;
+        int iS2 = zno1.s(q7h.U(set2, 10));
+        LinkedHashMap linkedHashMap2 = new LinkedHashMap(iS2 >= 16 ? iS2 : 16);
+        for (Object obj2 : set2) {
+            linkedHashMap2.put(obj2, nyn1.L(((heg) obj2).f()));
+        }
+        nyn1.K(linkedHashMap2);
+        Set set3 = s;
+        Set set4 = t;
+        LinkedHashSet linkedHashSetY0 = dm61.y0(set3, set4);
+        heg hegVar = q;
+        dm61.x0(hegVar, linkedHashSetY0);
+        nyn1.I("Continuation");
+        nyn1.H("Iterator");
+        nyn1.H("Iterable");
+        nyn1.H("Collection");
+        nyn1.H("List");
+        nyn1.H("ListIterator");
+        nyn1.H("Set");
+        heg hegVarH = nyn1.H("Map");
+        nyn1.H("AbstractMap");
+        nyn1.H("MutableIterator");
+        nyn1.H("CharIterator");
+        nyn1.H("MutableIterable");
+        nyn1.H("MutableCollection");
+        u = nyn1.H("MutableList");
+        nyn1.H("MutableListIterator");
+        v = nyn1.H("MutableSet");
+        heg hegVarH2 = nyn1.H("MutableMap");
+        w = hegVarH2;
+        hegVarH.d(ajn0.e("Entry"));
+        hegVarH2.d(ajn0.e("MutableEntry"));
+        nyn1.G("Result");
+        nyn1.M("IntRange");
+        nyn1.M("LongRange");
+        nyn1.M("CharRange");
+        nyn1.E("AnnotationRetention");
+        nyn1.E("AnnotationTarget");
+        nyn1.G("DeprecationLevel");
+        x = nyn1.J();
+        heg hegVarF = nyn1.F("AtomicBoolean");
+        heg hegVarF2 = nyn1.F("AtomicInt");
+        heg hegVarF3 = nyn1.F("AtomicLong");
+        nyn1.F("AtomicReference");
+        mmr0 mmr0VarN = oqn1.n(j, hegVarF);
+        heg hegVar2 = k;
+        mmr0 mmr0VarN2 = oqn1.n(hegVar2, hegVarF2);
+        heg hegVar3 = l;
+        y = sqg0.J(mmr0VarN, mmr0VarN2, oqn1.n(hegVar3, hegVarF3));
+        nyn1.F("AtomicArray");
+        z = sqg0.J(oqn1.n(hegVar2, nyn1.F("AtomicIntArray")), oqn1.n(hegVar3, nyn1.F("AtomicLongArray")));
+        dm61.x0(h, dm61.x0(g, dm61.x0(f, dm61.x0(hegVar, dm61.y0(set3, set4)))));
+    }
+}

@@ -1,0 +1,43 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes3.dex */
+public final class v5k extends hab0 implements vu30 {
+    public final /* synthetic */ byte a;
+    public final /* synthetic */ p5k b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public /* synthetic */ v5k(p5k p5kVar, byte b) {
+        super(2);
+        this.a = b;
+        this.b = p5kVar;
+    }
+
+    public final Object invoke(Object obj, Object obj2) {
+        byte b = this.a;
+        rih1 rih1Var = rih1.a;
+        p5k p5kVar = this.b;
+        switch (b) {
+            case 0:
+                x340 x340Var = (b0k) obj;
+                int iIntValue = ((Number) obj2).intValue();
+                x340 x340Var2 = x340Var;
+                if (!x340Var2.Y(iIntValue & 1, (iIntValue & 3) != 2)) {
+                    x340Var2.b0();
+                } else {
+                    vvm1.d(0, p5kVar.b, x340Var2, (qim0) null);
+                }
+                break;
+            default:
+                x340 x340Var3 = (b0k) obj;
+                int iIntValue2 = ((Number) obj2).intValue();
+                x340 x340Var4 = x340Var3;
+                if (!x340Var4.Y(iIntValue2 & 1, (iIntValue2 & 3) != 2)) {
+                    x340Var4.b0();
+                } else {
+                    eqr0.b(0, 2, p5kVar.b, x340Var4, (qim0) null);
+                }
+                break;
+        }
+        return rih1Var;
+    }
+}

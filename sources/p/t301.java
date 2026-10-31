@@ -1,0 +1,18 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public final class t301 implements y301 {
+    public static final t301 a = new t301();
+
+    public final boolean equals(Object obj) {
+        return this == obj || (obj instanceof t301);
+    }
+
+    public final int hashCode() {
+        return -1133260306;
+    }
+
+    public final String toString() {
+        return "ReactionsClicked";
+    }
+}

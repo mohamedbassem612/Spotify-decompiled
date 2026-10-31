@@ -1,0 +1,30 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public enum mup0 implements v190 {
+    /* JADX INFO: Fake field, exist only in values array */
+    OTHER(0),
+    /* JADX INFO: Fake field, exist only in values array */
+    AUDIO(1),
+    /* JADX INFO: Fake field, exist only in values array */
+    DRM(2),
+    /* JADX INFO: Fake field, exist only in values array */
+    IMAGE(3),
+    VIDEO(4),
+    UNRECOGNIZED(-1);
+
+    public final int a;
+
+    mup0(int i) {
+        this.a = i;
+    }
+
+    @Override // p.v190
+    public final int getNumber() {
+        if (this != UNRECOGNIZED) {
+            return this.a;
+        }
+        hhg1.n("Can't get the number of an unknown enum value.");
+        return 0;
+    }
+}

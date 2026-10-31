@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.liveevents.uiusecases.concertentityheader.elements.CalendarIconView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="false"
+    android:layout_width="@dimen/track_row_cover_art_size"
+    android:layout_height="@dimen/track_row_cover_art_size"
+    android:contentDescription="@null"
+    android:importantForAccessibility="noHideDescendants"/>

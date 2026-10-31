@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="fill"
+        android:height="32dp"
+        android:width="32dp"
+        android:drawable="@drawable/encore_icon_loading_indicator_alt_16"/>
+</layer-list>

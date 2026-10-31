@@ -1,0 +1,10 @@
+*.apk
+*.apkm
+*.dex
+*.idsig
+*.class
+*.log.tmp
+.DS_Store
+.idea/
+# Ignore raw downloaded APK inputs and temporary DEX files
+analysis/jadx-logs/*.log

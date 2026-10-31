@@ -1,0 +1,34 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final class m07 extends o17 {
+    public final g07 a;
+    public final z5t0 b = new z5t0(j4b1.f1);
+
+    public m07(g07 g07Var) {
+        this.a = g07Var;
+    }
+
+    public final g07 a() {
+        return this.a;
+    }
+
+    public final m5n1 b() {
+        return this.b;
+    }
+
+    public final boolean c() {
+        return false;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof m07) && this.a.equals(((m07) obj).a);
+    }
+
+    public final int hashCode() {
+        return Boolean.hashCode(false) + (this.a.hashCode() * 31);
+    }
+}

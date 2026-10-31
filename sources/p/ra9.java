@@ -1,0 +1,23 @@
+package p;
+
+import com.spotify.pamviewservice.v1.proto.PremiumPlanRow;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes10.dex */
+public final class ra9 extends onm {
+    public PremiumPlanRow a;
+    public /* synthetic */ Object b;
+    public final /* synthetic */ sa9 c;
+    public int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public ra9(sa9 sa9Var, lnm lnmVar) {
+        super(lnmVar);
+        this.c = sa9Var;
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        this.b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.c.b(null, this);
+    }
+}

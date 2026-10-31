@@ -1,0 +1,6 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public interface c9v0 {
+    zob1 a();
+}

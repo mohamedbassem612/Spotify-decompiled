@@ -1,0 +1,12 @@
+package p;
+
+import com.spotify.player.model.PlayerState;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public final /* synthetic */ class jza1 extends k01 implements xu30 {
+    public static final jza1 h = new jza1(3, mmr0.class, "<init>", "<init>(Ljava/lang/Object;Ljava/lang/Object;)V", 4);
+
+    public final Object invoke(Object obj, Object obj2, Object obj3) {
+        return new mmr0((ji0) obj, (PlayerState) obj2);
+    }
+}

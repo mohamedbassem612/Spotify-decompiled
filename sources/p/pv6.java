@@ -1,0 +1,21 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final class pv6 extends onm {
+    public String a;
+    public /* synthetic */ Object b;
+    public final /* synthetic */ vv6 c;
+    public int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public pv6(vv6 vv6Var, onm onmVar) {
+        super(onmVar);
+        this.c = vv6Var;
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        this.b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.c.e(null, this);
+    }
+}

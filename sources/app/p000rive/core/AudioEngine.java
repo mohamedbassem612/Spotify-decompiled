@@ -1,0 +1,17 @@
+package app.p000rive.core;
+
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes3.dex */
+@Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003J\u0010\u0010\u0005\u001a\u00020\u0004H\u0086 ¢\u0006\u0004\b\u0005\u0010\u0003J\u0010\u0010\u0006\u001a\u00020\u0004H\u0086 ¢\u0006\u0004\b\u0006\u0010\u0003¨\u0006\u0007"}, d2 = {"Lapp/rive/core/AudioEngine;", "", "<init>", "()V", "Lp/rih1;", "acquire", "release", "kotlin_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+public final class AudioEngine {
+    public static final int $stable = 0;
+    public static final AudioEngine INSTANCE = new AudioEngine();
+
+    private AudioEngine() {
+    }
+
+    public final native void acquire();
+
+    public final native void release();
+}

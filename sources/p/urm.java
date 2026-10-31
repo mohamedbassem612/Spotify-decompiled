@@ -1,0 +1,8 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public interface urm {
+    at71 a();
+
+    Object b(trm trmVar, onm onmVar);
+}

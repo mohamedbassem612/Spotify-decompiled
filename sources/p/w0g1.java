@@ -1,0 +1,21 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes10.dex */
+public final class w0g1 extends onm {
+    public q0g1 a;
+    public /* synthetic */ Object b;
+    public final /* synthetic */ hce1 c;
+    public int d;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public w0g1(hce1 hce1Var, onm onmVar) {
+        super(onmVar);
+        this.c = hce1Var;
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        this.b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.c.x((wa71) null, this);
+    }
+}

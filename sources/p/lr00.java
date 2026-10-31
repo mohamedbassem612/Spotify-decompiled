@@ -1,0 +1,23 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public enum lr00 implements v190 {
+    UNSPECIFIED(0),
+    ORIGINAL(1),
+    PREMIUM_EXCLUSIVE_CONTENT(2),
+    UNRECOGNIZED(-1);
+
+    public final int a;
+
+    lr00(int i) {
+        this.a = i;
+    }
+
+    public final int getNumber() {
+        if (this != UNRECOGNIZED) {
+            return this.a;
+        }
+        hhg1.n("Can't get the number of an unknown enum value.");
+        return 0;
+    }
+}

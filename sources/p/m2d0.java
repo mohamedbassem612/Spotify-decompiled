@@ -1,0 +1,40 @@
+package p;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public final class m2d0 extends g3d0 implements d3d0 {
+    public static final Parcelable.Creator<m2d0> CREATOR = new hbn1((byte) 26);
+    public final boolean a;
+
+    public m2d0(boolean z) {
+        this.a = z;
+    }
+
+    @Override // p.d3d0
+    public final boolean a() {
+        return this.a;
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof m2d0) && this.a == ((m2d0) obj).a;
+    }
+
+    public final int hashCode() {
+        return Boolean.hashCode(this.a);
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(this.a ? 1 : 0);
+    }
+}

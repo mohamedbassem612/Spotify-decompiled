@@ -1,0 +1,12 @@
+package com.spotify.tap.go.socket;
+
+import com.spotify.playlist.policy.proto.PlaylistDecorationPolicy;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+@Metadata(d1 = {"\u0000\n\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"com/spotify/tap/go/socket/SocketIo$CommandReadException", "Lcom/spotify/tap/go/socket/SocketIo$SocketIoException;", "<init>", "()V", "src_main_java_com_spotify_tap_go-go"}, k = 1, mv = {2, 3, 0}, xi = PlaylistDecorationPolicy.AI_CURATION_REFERENCE_ID_FIELD_NUMBER)
+public final class SocketIo$CommandReadException extends SocketIo$SocketIoException {
+    public SocketIo$CommandReadException() {
+        super("No bytes read from stream");
+    }
+}

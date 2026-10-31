@@ -1,0 +1,112 @@
+package com.spotify.socialprompting.v1;
+
+import com.google.protobuf.h;
+import p.bf40;
+import p.eyx0;
+import p.fe40;
+import p.jf40;
+import p.qzr0;
+import p.r2j0;
+import p.s2j0;
+import p.v2j0;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public final class GeneratePromptedPlaylistRequest extends h implements v2j0 {
+    public static final int BLEND_ID_FIELD_NUMBER = 1;
+    private static final GeneratePromptedPlaylistRequest DEFAULT_INSTANCE;
+    private static volatile qzr0 PARSER = null;
+    public static final int PROMPT_FIELD_NUMBER = 2;
+    public static final int PROMPT_SOURCE_FIELD_NUMBER = 4;
+    public static final int PROMPT_TITLE_FIELD_NUMBER = 3;
+    private int promptSource_;
+    private String blendId_ = "";
+    private String prompt_ = "";
+    private String promptTitle_ = "";
+
+    static {
+        GeneratePromptedPlaylistRequest generatePromptedPlaylistRequest = new GeneratePromptedPlaylistRequest();
+        DEFAULT_INSTANCE = generatePromptedPlaylistRequest;
+        h.registerDefaultInstance(GeneratePromptedPlaylistRequest.class, generatePromptedPlaylistRequest);
+    }
+
+    private GeneratePromptedPlaylistRequest() {
+    }
+
+    public static fe40 n() {
+        return (fe40) DEFAULT_INSTANCE.createBuilder();
+    }
+
+    public static qzr0 parser() {
+        return DEFAULT_INSTANCE.getParserForType();
+    }
+
+    public final Object dynamicMethod(jf40 jf40Var, Object obj, Object obj2) {
+        bf40 bf40Var;
+        int iOrdinal = jf40Var.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return h.newMessageInfo(DEFAULT_INSTANCE, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\f", new Object[]{"blendId_", "prompt_", "promptTitle_", "promptSource_"});
+        }
+        if (iOrdinal == 3) {
+            return new GeneratePromptedPlaylistRequest();
+        }
+        if (iOrdinal == 4) {
+            return new fe40(DEFAULT_INSTANCE);
+        }
+        if (iOrdinal == 5) {
+            return DEFAULT_INSTANCE;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        qzr0 qzr0Var = PARSER;
+        if (qzr0Var != null) {
+            return qzr0Var;
+        }
+        synchronized (GeneratePromptedPlaylistRequest.class) {
+            try {
+                bf40Var = PARSER;
+                if (bf40Var == null) {
+                    bf40Var = new bf40(DEFAULT_INSTANCE);
+                    PARSER = bf40Var;
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+        return bf40Var;
+    }
+
+    public final /* bridge */ /* synthetic */ s2j0 getDefaultInstanceForType() {
+        return getDefaultInstanceForType();
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 newBuilderForType() {
+        return newBuilderForType();
+    }
+
+    public final void o(String str) {
+        str.getClass();
+        this.blendId_ = str;
+    }
+
+    public final void p(String str) {
+        str.getClass();
+        this.prompt_ = str;
+    }
+
+    public final void q(eyx0 eyx0Var) {
+        this.promptSource_ = eyx0Var.getNumber();
+    }
+
+    public final void r(String str) {
+        str.getClass();
+        this.promptTitle_ = str;
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 toBuilder() {
+        return toBuilder();
+    }
+}

@@ -1,0 +1,11 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public interface o590 extends d0u0 {
+    spq0 I(m0u0 m0u0Var, oot0 oot0Var, np00 np00Var, String str, lls0 lls0Var);
+
+    @Override // p.d0u0
+    default c0u0 a(m0u0 m0u0Var, oot0 oot0Var, np00 np00Var, String str) {
+        throw new UnsupportedOperationException("This method should not be called");
+    }
+}

@@ -1,0 +1,6 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public abstract class oej {
+    public static final j2i a = new j2i(783384714, lbj.c1, false);
+}

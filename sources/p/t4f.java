@@ -1,0 +1,38 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes5.dex */
+public final class t4f implements u4f {
+    public final String a;
+    public final String b;
+    public final String c;
+    public final r4f d;
+    public final zks0 e;
+
+    public t4f(String str, String str2, String str3, r4f r4fVar, zks0 zks0Var) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+        this.d = r4fVar;
+        this.e = zks0Var;
+    }
+
+    @Override // p.u4f
+    public final String a() {
+        return this.b;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof t4f)) {
+            return false;
+        }
+        t4f t4fVar = (t4f) obj;
+        return u890.j(this.a, t4fVar.a) && this.b.equals(t4fVar.b) && u890.j(this.c, t4fVar.c) && u890.j(this.d, t4fVar.d) && u890.j(this.e, t4fVar.e);
+    }
+
+    public final int hashCode() {
+        return this.e.hashCode() + ((this.d.hashCode() + cy30.d(cy30.d(this.a.hashCode() * 31, 31, this.b), 31, this.c)) * 31);
+    }
+}

@@ -1,0 +1,47 @@
+package p;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class wx11 implements xx11 {
+    public static final Parcelable.Creator<wx11> CREATOR = new e211((byte) 24);
+    public final String a;
+    public final String b;
+    public final String c;
+
+    public wx11(String str, String str2, String str3) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+    }
+
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof wx11)) {
+            return false;
+        }
+        wx11 wx11Var = (wx11) obj;
+        return u890.j(this.a, wx11Var.a) && u890.j(this.b, wx11Var.b) && u890.j(this.c, wx11Var.c);
+    }
+
+    public final String getId() {
+        return this.a;
+    }
+
+    public final int hashCode() {
+        return this.c.hashCode() + cy30.d(this.a.hashCode() * 31, 31, this.b);
+    }
+
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(this.a);
+        parcel.writeString(this.b);
+        parcel.writeString(this.c);
+    }
+}

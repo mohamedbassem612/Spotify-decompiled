@@ -1,0 +1,6 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes9.dex */
+public final class jgd1 extends kyo1 {
+    public static final jgd1 c = new jgd1();
+}

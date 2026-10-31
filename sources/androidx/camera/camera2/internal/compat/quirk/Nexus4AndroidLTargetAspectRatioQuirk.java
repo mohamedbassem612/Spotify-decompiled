@@ -1,0 +1,10 @@
+package androidx.camera.camera2.internal.compat.quirk;
+
+import java.util.Arrays;
+import java.util.List;
+import p.xgz0;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes3.dex */
+public class Nexus4AndroidLTargetAspectRatioQuirk implements xgz0 {
+    public static final List a = Arrays.asList("NEXUS 4");
+}

@@ -1,0 +1,90 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public abstract /* synthetic */ class gah1 {
+    public static final /* synthetic */ int[] a;
+    public static final /* synthetic */ int[] b;
+    public static final /* synthetic */ int[] c;
+    public static final /* synthetic */ int[] d;
+    public static final /* synthetic */ int[] e;
+    public static final /* synthetic */ int[] f;
+
+    static {
+        int[] iArr = new int[l1d.H(3).length];
+        try {
+            iArr[0] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            iArr[1] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        a = iArr;
+        int[] iArr2 = new int[l1d.H(3).length];
+        try {
+            iArr2[0] = 1;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            iArr2[1] = 2;
+        } catch (NoSuchFieldError unused4) {
+        }
+        b = iArr2;
+        int[] iArr3 = new int[l1d.H(2).length];
+        try {
+            iArr3[0] = 1;
+        } catch (NoSuchFieldError unused5) {
+        }
+        try {
+            iArr3[1] = 2;
+        } catch (NoSuchFieldError unused6) {
+        }
+        c = iArr3;
+        int[] iArr4 = new int[l1d.H(2).length];
+        try {
+            iArr4[0] = 1;
+        } catch (NoSuchFieldError unused7) {
+        }
+        try {
+            iArr4[1] = 2;
+        } catch (NoSuchFieldError unused8) {
+        }
+        d = iArr4;
+        int[] iArr5 = new int[l1d.H(5).length];
+        try {
+            iArr5[0] = 1;
+        } catch (NoSuchFieldError unused9) {
+        }
+        try {
+            iArr5[1] = 2;
+        } catch (NoSuchFieldError unused10) {
+        }
+        try {
+            iArr5[2] = 3;
+        } catch (NoSuchFieldError unused11) {
+        }
+        try {
+            iArr5[3] = 4;
+        } catch (NoSuchFieldError unused12) {
+        }
+        e = iArr5;
+        int[] iArr6 = new int[l1d.H(4).length];
+        try {
+            iArr6[0] = 1;
+        } catch (NoSuchFieldError unused13) {
+        }
+        try {
+            iArr6[1] = 2;
+        } catch (NoSuchFieldError unused14) {
+        }
+        try {
+            iArr6[2] = 3;
+        } catch (NoSuchFieldError unused15) {
+        }
+        try {
+            iArr6[3] = 4;
+        } catch (NoSuchFieldError unused16) {
+        }
+        f = iArr6;
+    }
+}

@@ -1,0 +1,44 @@
+package p;
+
+import java.util.ArrayList;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public final class sil0 implements w6h1 {
+    public final r6h1 a;
+    public final y6h1 b;
+
+    public sil0(r6h1 r6h1Var) {
+        this.a = r6h1Var;
+        y6h1 y6h1Var = y6h1.i;
+        x6h1 x6h1VarI = i3o1.i();
+        x6h1VarI.h = "music";
+        x6h1VarI.a = "mobile-nowplaying-repeat-button";
+        x6h1VarI.f = "2.0.0";
+        x6h1VarI.g = "22.0.0";
+        this.b = x6h1VarI.a();
+    }
+
+    public final r6h1 b() {
+        r6h1 r6h1Var = r6h1.c;
+        ArrayList arrayList = new ArrayList();
+        r6h1 r6h1Var2 = this.a;
+        arrayList.addAll(r6h1Var2.a);
+        arrayList.add(this.b);
+        return new r6h1(arrayList, r6h1Var2.b);
+    }
+
+    public final w7h1 e() {
+        b7x b7xVar = b7x.a;
+        return new w7h1("", "", new z7h1("hit", 1, b7xVar), new x7h1("repeat_disable", 1, b7xVar), this.b, this.a, System.currentTimeMillis());
+    }
+
+    public final w7h1 h() {
+        b7x b7xVar = b7x.a;
+        return new w7h1("", "", new z7h1("hit", 1, b7xVar), new x7h1("repeat_enable", 1, b7xVar), this.b, this.a, System.currentTimeMillis());
+    }
+
+    public final w7h1 i() {
+        b7x b7xVar = b7x.a;
+        return new w7h1("", "", new z7h1("hit", 1, b7xVar), new x7h1("repeat_one_enable", 1, b7xVar), this.b, this.a, System.currentTimeMillis());
+    }
+}

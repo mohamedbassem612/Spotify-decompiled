@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/musicvideorowlabel_video_icon_size"
+    android:layout_height="@dimen/musicvideorowlabel_video_icon_size"
+    android:indeterminateTint="?attr/textSubdued"
+    style="?android:attr/progressBarStyleSmall"/>

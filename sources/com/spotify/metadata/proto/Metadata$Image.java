@@ -1,0 +1,95 @@
+package com.spotify.metadata.proto;
+
+import com.google.protobuf.h;
+import p.a01;
+import p.bf40;
+import p.jf40;
+import p.phc;
+import p.qij0;
+import p.qzr0;
+import p.r2j0;
+import p.s2j0;
+import p.v2j0;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes9.dex */
+public final class Metadata$Image extends h implements v2j0 {
+    private static final Metadata$Image DEFAULT_INSTANCE;
+    public static final int FILE_ID_FIELD_NUMBER = 1;
+    public static final int HEIGHT_FIELD_NUMBER = 4;
+    private static volatile qzr0 PARSER = null;
+    public static final int SIZE_FIELD_NUMBER = 2;
+    public static final int WIDTH_FIELD_NUMBER = 3;
+    private int bitField0_;
+    private phc fileId_ = phc.b;
+    private int height_;
+    private int size_;
+    private int width_;
+
+    static {
+        Metadata$Image metadata$Image = new Metadata$Image();
+        DEFAULT_INSTANCE = metadata$Image;
+        h.registerDefaultInstance(Metadata$Image.class, metadata$Image);
+    }
+
+    private Metadata$Image() {
+    }
+
+    public static qzr0 parser() {
+        return DEFAULT_INSTANCE.getParserForType();
+    }
+
+    public final Object dynamicMethod(jf40 jf40Var, Object obj, Object obj2) {
+        bf40 bf40Var;
+        int iOrdinal = jf40Var.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return h.newMessageInfo(DEFAULT_INSTANCE, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ည\u0000\u0002᠌\u0001\u0003ဏ\u0002\u0004ဏ\u0003", new Object[]{"bitField0_", "fileId_", "size_", a01.x, "width_", "height_"});
+        }
+        if (iOrdinal == 3) {
+            return new Metadata$Image();
+        }
+        if (iOrdinal == 4) {
+            return new qij0(DEFAULT_INSTANCE, (byte) 7);
+        }
+        if (iOrdinal == 5) {
+            return DEFAULT_INSTANCE;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        qzr0 qzr0Var = PARSER;
+        if (qzr0Var != null) {
+            return qzr0Var;
+        }
+        synchronized (Metadata$Image.class) {
+            try {
+                bf40Var = PARSER;
+                if (bf40Var == null) {
+                    bf40Var = new bf40(DEFAULT_INSTANCE);
+                    PARSER = bf40Var;
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+        return bf40Var;
+    }
+
+    public final /* bridge */ /* synthetic */ s2j0 getDefaultInstanceForType() {
+        return getDefaultInstanceForType();
+    }
+
+    public final phc n() {
+        return this.fileId_;
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 newBuilderForType() {
+        return newBuilderForType();
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 toBuilder() {
+        return toBuilder();
+    }
+}

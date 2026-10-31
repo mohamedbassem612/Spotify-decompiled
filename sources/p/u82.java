@@ -1,0 +1,47 @@
+package p;
+
+import java.security.GeneralSecurityException;
+import java.util.Arrays;
+import java.util.Iterator;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public final class u82 implements s82 {
+    public final aru0 a;
+
+    public u82(aru0 aru0Var) {
+        this.a = aru0Var;
+    }
+
+    @Override // p.s82
+    public final byte[] a(byte[] bArr, byte[] bArr2) {
+        aru0 aru0Var = this.a;
+        return ila0.n(new byte[][]{aru0Var.i().a(), ((s82) aru0Var.i().a).a(bArr, bArr2)});
+    }
+
+    @Override // p.s82
+    public final byte[] b(byte[] bArr, byte[] bArr2) throws GeneralSecurityException {
+        int length = bArr.length;
+        aru0 aru0Var = this.a;
+        if (length > 5) {
+            byte[] bArrCopyOfRange = Arrays.copyOfRange(bArr, 0, 5);
+            byte[] bArrCopyOfRange2 = Arrays.copyOfRange(bArr, 5, bArr.length);
+            Iterator it = aru0Var.j(bArrCopyOfRange).iterator();
+            while (it.hasNext()) {
+                try {
+                    return ((s82) ((rnw0) it.next()).a).b(bArrCopyOfRange2, bArr2);
+                } catch (GeneralSecurityException e) {
+                    v82.a.info("ciphertext prefix matches a key, but cannot decrypt: " + e.toString());
+                }
+            }
+        }
+        Iterator it2 = aru0Var.k().iterator();
+        while (it2.hasNext()) {
+            try {
+                return ((s82) ((rnw0) it2.next()).a).b(bArr, bArr2);
+            } catch (GeneralSecurityException unused) {
+            }
+        }
+        k220.r("decryption failed");
+        return null;
+    }
+}

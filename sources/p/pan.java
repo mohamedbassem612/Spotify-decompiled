@@ -1,0 +1,45 @@
+package p;
+
+import java.util.Iterator;
+import java.util.List;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes10.dex */
+public final class pan implements nan {
+    public final npj0 a;
+    public final zpj0 b;
+
+    public pan(npj0 npj0Var, zpj0 zpj0Var) {
+        this.a = npj0Var;
+        this.b = zpj0Var;
+    }
+
+    @Override // p.nan
+    public final void increment(double d) {
+        double d2;
+        if (d <= 0.0d) {
+            return;
+        }
+        zpj0 zpj0Var = this.b;
+        String str = this.a.a;
+        long jLongValue = ((Number) zpj0Var.a.invoke()).longValue();
+        synchronized (zpj0Var.m) {
+            a6e a6eVarK = zpj0Var.j.k(str);
+            if (a6eVarK != null) {
+                if (a6eVarK.b()) {
+                    d2 = d;
+                    zpj0Var.k.u(str, d2, jLongValue);
+                } else {
+                    d2 = d;
+                }
+                z6x z6xVar = (List) zpj0Var.g.get(str);
+                if (z6xVar == null) {
+                    z6xVar = z6x.a;
+                }
+                Iterator it = z6xVar.iterator();
+                while (it.hasNext()) {
+                    ((mqj0) it.next()).i(d2);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+package p;
+
+import java.util.ArrayList;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class dg51 {
+    public final ArrayList a;
+
+    public dg51(ArrayList arrayList) {
+        this.a = arrayList;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof dg51) && this.a.equals(((dg51) obj).a);
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+}

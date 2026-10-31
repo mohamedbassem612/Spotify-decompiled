@@ -1,0 +1,23 @@
+package p;
+
+import java.util.Map;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes5.dex */
+public final class ykv0 implements clv0 {
+    public final Map a;
+
+    public ykv0(Map map) {
+        this.a = map;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof ykv0) && this.a.equals(((ykv0) obj).a);
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+}

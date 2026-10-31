@@ -1,0 +1,15 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes3.dex */
+public abstract /* synthetic */ class i5v {
+    public static final /* synthetic */ int[] a;
+
+    static {
+        int[] iArr = new int[l1d.H(3).length];
+        try {
+            iArr[2] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        a = iArr;
+    }
+}

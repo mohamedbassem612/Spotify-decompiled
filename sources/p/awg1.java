@@ -1,0 +1,26 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes9.dex */
+public enum awg1 {
+    c(2131963414, "LOSSLESS_COMPATIBLE_CONTENT"),
+    d(2131963406, "CACHED_BUT_VERY_HIGH_SETTINGS"),
+    e(2131963426, "OPT_OUT_OF_DOWNGRADE"),
+    f(2131963404, "BLUETOOTH_DEGRADES_HIFI"),
+    g(2131963410, "DOWNGRADED_BY_BACKEND"),
+    h(2131963428, "POOR_BANDWIDTH_INTERFERES"),
+    i(2131963424, "NEED_TO_REDOWNLOAD"),
+    t(2131963408, "DATA_SAVER_ON"),
+    X(2131963412, "LOSSLESS_24_BIT_UNAVAILABLE"),
+    Y(2131963418, "LOSSLESS_ONLY_DOWNLOADS"),
+    Z(2131963422, "LOSSLESS_TRY_WIFI_OR_DOWNLOAD"),
+    N0(2131963420, "LOSSLESS_TRY_CELLULAR_OR_DOWNLOAD"),
+    O0(2131963416, "LOSSLESS_ON_OTHER_DEVICE");
+
+    public final int a;
+    public final int b;
+
+    awg1(int i2, String str) {
+        this.a = i;
+        this.b = i2;
+    }
+}

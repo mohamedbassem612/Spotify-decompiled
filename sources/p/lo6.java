@@ -1,0 +1,70 @@
+package p;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes5.dex */
+@o661
+public final class lo6 implements Parcelable {
+    public final String a;
+    public final String b;
+    public final String c;
+    public static final ko6 Companion = new ko6();
+    public static final Parcelable.Creator<lo6> CREATOR = new fp5((byte) 13);
+
+    public /* synthetic */ lo6(String str, String str2, int i, String str3) {
+        if ((i & 1) == 0) {
+            this.a = null;
+        } else {
+            this.a = str;
+        }
+        if ((i & 2) == 0) {
+            this.b = null;
+        } else {
+            this.b = str2;
+        }
+        if ((i & 4) == 0) {
+            this.c = null;
+        } else {
+            this.c = str3;
+        }
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof lo6)) {
+            return false;
+        }
+        lo6 lo6Var = (lo6) obj;
+        return u890.j(this.a, lo6Var.a) && u890.j(this.b, lo6Var.b) && u890.j(this.c, lo6Var.c);
+    }
+
+    public final int hashCode() {
+        String str = this.a;
+        int iHashCode = (str == null ? 0 : str.hashCode()) * 31;
+        String str2 = this.b;
+        int iHashCode2 = (iHashCode + (str2 == null ? 0 : str2.hashCode())) * 31;
+        String str3 = this.c;
+        return iHashCode2 + (str3 != null ? str3.hashCode() : 0);
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(this.a);
+        parcel.writeString(this.b);
+        parcel.writeString(this.c);
+    }
+
+    public lo6(String str, String str2, String str3) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+    }
+}

@@ -1,0 +1,23 @@
+package p;
+
+import com.spotify.mobius.functions.Consumer;
+import io.reactivex.rxjava3.core.Scheduler;
+import io.reactivex.rxjava3.subjects.PublishSubject;
+import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public final class q900 implements Consumer {
+    public final Scheduler a;
+    public final ArrayList b = new ArrayList();
+    public final AtomicBoolean c = new AtomicBoolean(false);
+    public final PublishSubject d = new PublishSubject();
+
+    public q900(Scheduler scheduler) {
+        this.a = scheduler;
+    }
+
+    public final void accept(Object obj) {
+        this.a.c(new nx30(this, obj, (byte) 22));
+    }
+}

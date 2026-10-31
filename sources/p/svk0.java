@@ -1,0 +1,18 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes9.dex */
+public final class svk0 implements n8h1 {
+    public final y6h1 a;
+
+    public svk0(sqk0 sqk0Var, String str) {
+        x6h1 x6h1VarC = sqk0Var.b.c();
+        x6h1VarC.i.add(new a7h1("content_preview_button", (String) null, (Integer) null, str, (String) null));
+        x6h1VarC.j = false;
+        this.a = x6h1VarC.a();
+    }
+
+    public final r6h1 b() {
+        r6h1 r6h1Var = r6h1.c;
+        return new r6h1(kk0.l(this.a), (u8h1) null);
+    }
+}

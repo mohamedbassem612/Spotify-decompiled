@@ -1,0 +1,29 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes8.dex */
+public final class cyc {
+    public final int a;
+    public final String b;
+    public final String c;
+
+    public cyc(int i, String str, String str2) {
+        this.a = i;
+        this.b = str;
+        this.c = str2;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof cyc)) {
+            return false;
+        }
+        cyc cycVar = (cyc) obj;
+        return this.a == cycVar.a && this.b.equals(cycVar.b) && this.c.equals(cycVar.c);
+    }
+
+    public final int hashCode() {
+        return this.c.hashCode() + cy30.d(l1d.C(this.a) * 31, 31, this.b);
+    }
+}

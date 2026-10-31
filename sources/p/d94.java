@@ -1,0 +1,124 @@
+package p;
+
+import com.google.protobuf.g;
+import com.google.protobuf.h;
+import com.spotify.music.clientinfo.instrumentation.events.proto.AndroidClientReport;
+import java.io.InputStream;
+import java.util.ArrayList;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes2.dex */
+public final class d94 extends g implements v2j0 {
+    public final /* bridge */ /* synthetic */ s2j0 build() {
+        return build();
+    }
+
+    public final /* bridge */ /* synthetic */ s2j0 buildPartial() {
+        return super.buildPartial();
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 clear() {
+        return clear();
+    }
+
+    public final /* bridge */ /* synthetic */ Object clone() {
+        return super.clone();
+    }
+
+    public final /* bridge */ /* synthetic */ s2j0 getDefaultInstanceForType() {
+        return super.getDefaultInstanceForType();
+    }
+
+    public final /* bridge */ /* synthetic */ r8 internalMergeFrom(s8 s8Var) {
+        return super.internalMergeFrom((h) s8Var);
+    }
+
+    /* JADX INFO: renamed from: mergeFrom, reason: collision with other method in class */
+    public final /* bridge */ /* synthetic */ r8 m116mergeFrom(lwg lwgVar, uz00 uz00Var) {
+        return super.mergeFrom(lwgVar, uz00Var);
+    }
+
+    public final void n(ArrayList arrayList) {
+        copyOnWrite();
+        AndroidClientReport androidClientReport = (AndroidClientReport) ((g) this).instance;
+        int i = AndroidClientReport.PACKAGE_NAME_FIELD_NUMBER;
+        androidClientReport.n(arrayList);
+    }
+
+    public final void q(String str) {
+        copyOnWrite();
+        AndroidClientReport androidClientReport = (AndroidClientReport) ((g) this).instance;
+        int i = AndroidClientReport.PACKAGE_NAME_FIELD_NUMBER;
+        androidClientReport.p(str);
+    }
+
+    public final void r(String str) {
+        copyOnWrite();
+        AndroidClientReport androidClientReport = (AndroidClientReport) ((g) this).instance;
+        int i = AndroidClientReport.PACKAGE_NAME_FIELD_NUMBER;
+        androidClientReport.q(str);
+    }
+
+    /* JADX INFO: renamed from: clone, reason: collision with other method in class */
+    public final /* bridge */ /* synthetic */ r8 m115clone() {
+        return super.clone();
+    }
+
+    /* JADX INFO: renamed from: mergeFrom, reason: collision with other method in class */
+    public final /* bridge */ /* synthetic */ r8 m117mergeFrom(byte[] bArr, int i, int i2) {
+        return super.mergeFrom(bArr, i, i2);
+    }
+
+    /* JADX INFO: renamed from: clone, reason: collision with other method in class */
+    public final /* bridge */ /* synthetic */ r2j0 m114clone() {
+        return super.clone();
+    }
+
+    /* JADX INFO: renamed from: mergeFrom, reason: collision with other method in class */
+    public final /* bridge */ /* synthetic */ r8 m118mergeFrom(byte[] bArr, int i, int i2, uz00 uz00Var) {
+        return super.mergeFrom(bArr, i, i2, uz00Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(InputStream inputStream) {
+        return super/*p.r8*/.mergeFrom(inputStream);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(InputStream inputStream, uz00 uz00Var) {
+        return super/*p.r8*/.mergeFrom(inputStream, uz00Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(phc phcVar) {
+        return super/*p.r8*/.mergeFrom(phcVar);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(phc phcVar, uz00 uz00Var) {
+        return super/*p.r8*/.mergeFrom(phcVar, uz00Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(lwg lwgVar) {
+        return super/*p.r8*/.mergeFrom(lwgVar);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(lwg lwgVar, uz00 uz00Var) {
+        return super.mergeFrom(lwgVar, uz00Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(s2j0 s2j0Var) {
+        return super/*p.r8*/.mergeFrom(s2j0Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(byte[] bArr) {
+        return super/*p.r8*/.mergeFrom(bArr);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(byte[] bArr, int i, int i2) {
+        return super.mergeFrom(bArr, i, i2);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(byte[] bArr, int i, int i2, uz00 uz00Var) {
+        return super.mergeFrom(bArr, i, i2, uz00Var);
+    }
+
+    public final /* bridge */ /* synthetic */ r2j0 mergeFrom(byte[] bArr, uz00 uz00Var) {
+        return super/*p.r8*/.mergeFrom(bArr, uz00Var);
+    }
+}

@@ -1,0 +1,16 @@
+package com.spotify.core.core;
+
+import com.spotify.connect.esperanto.proto.ConnectMessages$StateResponse;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+@Metadata(d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\t\n\u0002\b\u0003\n\u0002\u0010\u0012\n\u0002\b\u0006\bf\u0018\u00002\u00020\u0001J\u000f\u0010\u0003\u001a\u00020\u0002H&¢\u0006\u0004\b\u0003\u0010\u0004R\u0014\u0010\b\u001a\u00020\u00058&X¦\u0004¢\u0006\u0006\u001a\u0004\b\u0006\u0010\u0007R\u0014\u0010\f\u001a\u00020\t8&X¦\u0004¢\u0006\u0006\u001a\u0004\b\n\u0010\u000bR\u0014\u0010\u000e\u001a\u00020\t8&X¦\u0004¢\u0006\u0006\u001a\u0004\b\r\u0010\u000bø\u0001\u0000\u0082\u0002\u0006\n\u0004\b!0\u0001¨\u0006\u000fÀ\u0006\u0001"}, d2 = {"Lcom/spotify/core/core/NativeApplicationScope;", "", "Lp/rih1;", "destroy", "()V", "", "getNThis", "()J", "nThis", "", "getCacheId", "()[B", "cacheId", "getCacheSalt", "cacheSalt", "src_main_java_com_spotify_core_core-core"}, k = 1, mv = {2, 3, 0}, xi = ConnectMessages$StateResponse.Device.SUPPORTS_GAPLESS_FIELD_NUMBER)
+public interface NativeApplicationScope {
+    void destroy();
+
+    byte[] getCacheId();
+
+    byte[] getCacheSalt();
+
+    long getNThis();
+}

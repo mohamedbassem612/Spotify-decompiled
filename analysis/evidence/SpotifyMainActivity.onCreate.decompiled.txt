@@ -1,0 +1,128 @@
+REA Android method decompilation
+APK package: com.spotify.music 9.2.0.26 (version code 148373686)
+APK artifact SHA-256: cc165669d31851b1193cae7d54c9261579c431b432080970f460704d06e4612f
+Class: com.spotify.music.SpotifyMainActivity
+Method: onCreate(android.os.Bundle): void
+Engine: jadx-headless-mcp 0.7.1; heap 5120 MiB
+Evidence ID: ev_1bf72e5cdd99dade75820552a6d8ccf7ad73758cd3445791ded1ce8c55714de9
+Note: decompiler output is partial Java-like source; obfuscated names and unresolved types are preserved.
+
+    @Override // p.t3b1, p.dac0, p.dg30, p.g0i, p.f0i, android.app.Activity
+    public final void onCreate(Bundle bundle) {
+        i94 i94Var = (i94) this.F1;
+        i94Var.e("main_activity_on_create");
+        t45 t45Var = i94Var.e;
+        if (bundle == null) {
+            if (t45Var != null) {
+                t45Var.a("state_restore", "false");
+            }
+        } else if (t45Var != null) {
+            t45Var.a("state_restore", "true");
+        }
+        if (u890.j(i94Var.n, Boolean.TRUE)) {
+            i94Var.b("spotify_service_already_running");
+        }
+        Long l = i94Var.d;
+        if (l != null) {
+            if (((s45) i94Var.a).a.a() - l.longValue() > 10000000) {
+                i94Var.b("app_was_running_in_background");
+            }
+        }
+        setTheme(R.style.Theme_Glue_NoActionBar);
+        qdd1 qdd1VarH = jma.h();
+        zlv.a(this, qdd1VarH, qdd1VarH);
+        super.onCreate(bundle);
+        Bundle bundle2 = this.e1;
+        ni61 ni61Var = this.p1;
+        if (ni61Var == null) {
+            u890.C("sessionUiTeardownRegistry");
+            throw null;
+        }
+        yh0 yh0Var = this.q1;
+        if (yh0Var == null) {
+            u890.C("sessionUiHost");
+            throw null;
+        }
+        this.E1 = ni61Var.b(yh0Var);
+        p0().a = bundle2;
+        if (!isTaskRoot() && getIntent().getData() == null && !u890.j(getIntent().getAction(), "android.intent.action.SEND") && !u890.j(getIntent().getAction(), "android.intent.action.SEND_MULTIPLE")) {
+            ActivityManager activityManager = (ActivityManager) getSystemService("activity");
+            if (isTaskRoot() || Build.VERSION.SDK_INT >= 30 || !activityManager.getAppTasks().isEmpty()) {
+                finish();
+                return;
+            }
+        }
+        t0n0 t0n0Var = this.y1;
+        if (t0n0Var == null) {
+            u890.C("navigationBarActiveItemProvider");
+            throw null;
+        }
+        xh81 xh81Var = this.z1;
+        if (xh81Var == null) {
+            u890.C("sideDrawerPageViewObservableProvider");
+            throw null;
+        }
+        uo5 uo5Var = new uo5(t0n0Var, xh81Var);
+        this.C1 = nhc.p(uo5Var);
+        c5b1 c5b1Var = new c5b1(uo5Var);
+        yun0 yun0Var = this.t1;
+        if (yun0Var == null) {
+            u890.C("fragmentChangeListener");
+            throw null;
+        }
+        yun0Var.g(c5b1Var);
+        this.D1 = c5b1Var;
+        try {
+            ciq ciqVar = this.s1;
+            if (ciqVar == null) {
+                u890.C("navigationSystemFactory");
+                throw null;
+            }
+            ciqVar.a(this, this, new b5b1(this, (byte) 3), (ggs0) new hck1(this, new we41()).a(ggs0.class));
+            q0().P();
+            Intent intent = getIntent();
+            if (intent != null && bundle2 == null) {
+                onNewIntent(intent);
+            }
+            setVisible(false);
+            bp31 bp31VarM = q0().M();
+            yun0 yun0Var2 = this.t1;
+            if (yun0Var2 == null) {
+                u890.C("fragmentChangeListener");
+                throw null;
+            }
+            yun0Var2.g(bp31VarM);
+            setContentView(R.layout.empty_main);
+            FrameLayout frameLayout = (FrameLayout) findViewById(R.id.main_content);
+            i94Var.e("content_view_creation");
+            ap31 ap31VarQ0 = q0();
+            LayoutInflater layoutInflater = getLayoutInflater();
+            frameLayout.getClass();
+            ap31VarQ0.E(layoutInflater, frameLayout);
+            i94Var.a("content_view_creation");
+            mjv mjvVar = this.h1;
+            if (mjvVar == null) {
+                u890.C("fragmentStackReader");
+                throw null;
+            }
+            mjvVar.d(new l5v0(this, (byte) 24));
+            yun0 yun0Var3 = this.t1;
+            if (yun0Var3 == null) {
+                u890.C("fragmentChangeListener");
+                throw null;
+            }
+            yun0Var3.g(this.H1);
+            b0(yxe1.class).d(new qpj0(this, (byte) 12));
+            ((ProtectionLayout) findViewById(R.id.system_bar_protection)).setProtections(p7h.M(new y9h(1), new y9h(4)));
+            rwq0.s(frameLayout, new his(frameLayout, (byte) 2));
+            i94Var.a("main_activity_on_create");
+        } catch (BadParcelableException e) {
+            Logger.e(e, "Failed to initialize navigation system with restored state", new Object[0]);
+            finish();
+            startActivity(getIntent());
+        } catch (ClassNotFoundException e2) {
+            Logger.e(e2, "Failed to initialize navigation system with restored state", new Object[0]);
+            finish();
+            startActivity(getIntent());
+        }
+    }

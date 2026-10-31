@@ -1,0 +1,21 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes12.dex */
+public final class wqm1 extends arm1 {
+    public final pr61 a;
+
+    public wqm1(pr61 pr61Var) {
+        this.a = pr61Var;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof wqm1) && this.a.equals(((wqm1) obj).a);
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+}

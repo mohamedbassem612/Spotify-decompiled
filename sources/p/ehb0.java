@@ -1,0 +1,25 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes10.dex */
+public final class ehb0 {
+    public final String a;
+
+    public ehb0(String str) {
+        this.a = str;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof ehb0) && u890.j(this.a, ((ehb0) obj).a);
+    }
+
+    public final int hashCode() {
+        String str = this.a;
+        if (str == null) {
+            return 0;
+        }
+        return str.hashCode();
+    }
+}

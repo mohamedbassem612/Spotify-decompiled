@@ -1,0 +1,24 @@
+package p;
+
+import com.spotify.mobius.coroutines.CoroutinesSubtypeEffectHandlerBuilder;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes7.dex */
+public final class hb21 implements CoroutinesSubtypeEffectHandlerBuilder.EffectHandler {
+    public final /* synthetic */ ob21 a;
+
+    public hb21(ob21 ob21Var) {
+        this.a = ob21Var;
+    }
+
+    public final Object a(Object obj, r261 r261Var, onm onmVar) {
+        String str = ((bb21) obj).a;
+        ob21 ob21Var = this.a;
+        Object objY = fn31.Y(ob21Var.g, new mb21(ob21Var, str, null, (byte) 0), onmVar);
+        rih1 rih1Var = rih1.a;
+        d9n d9nVar = d9n.a;
+        if (objY != d9nVar) {
+            objY = rih1Var;
+        }
+        return objY == d9nVar ? objY : rih1Var;
+    }
+}

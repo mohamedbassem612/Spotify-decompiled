@@ -1,0 +1,20 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes6.dex */
+public final class sow extends onm {
+    public /* synthetic */ Object a;
+    public final /* synthetic */ tow b;
+    public int c;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public sow(tow towVar, onm onmVar) {
+        super(onmVar);
+        this.b = towVar;
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        this.a = obj;
+        this.c |= Integer.MIN_VALUE;
+        return this.b.a(null, this);
+    }
+}

@@ -1,0 +1,10 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes11.dex */
+public final /* synthetic */ class m9b0 extends tv30 implements iu30 {
+    public static final m9b0 a = new m9b0(1, bwp0.class, "isAddToQueueSwipeEnabled", "isAddToQueueSwipeEnabled(Lcom/spotify/search/elements/offline/offlinerowelement/OfflineRowElement$State;)Z", 1);
+
+    public final Object invoke(Object obj) {
+        return Boolean.valueOf(bwp0.m((xvp0) obj));
+    }
+}

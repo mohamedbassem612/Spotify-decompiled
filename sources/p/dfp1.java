@@ -1,0 +1,73 @@
+package p;
+
+/* JADX WARN: $VALUES field not found */
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes4.dex */
+public final class dfp1 {
+    public static final dfp1 a = new dfp1(bap1.a("G3yShzoxA1WR"), 0);
+    public static final dfp1 b = new dfp1(bap1.a("G3yShzpP"), 1);
+    public static final dfp1 c = new dfp1(bap1.a("G3yShzpO"), 2);
+    public static final dfp1 d = new dfp1(bap1.a("G3yShzpN"), 3);
+    public static final dfp1 e = new dfp1(bap1.a("G3yShzpM"), 4);
+    public static final dfp1 f = new dfp1(bap1.a("G3yShzpL"), 5);
+    public static final dfp1 g = new dfp1(bap1.a("G3yShzpI"), 6);
+    public static final dfp1 h = new dfp1(bap1.a("G3yShzoyH1eIcxs="), 7);
+    public static final dfp1 i = new dfp1(bap1.a("G3yShzoyH1eIcxg="), 8);
+    public static final dfp1 t = new dfp1(bap1.a("Cm2FkCwxAg=="), 9);
+    public static final dfp1 X = new dfp1(bap1.a("Cm2FkDYrBA=="), 10);
+    public static final dfp1 Y = new dfp1(bap1.a("CGiNgw=="), 11);
+    public static final dfp1 Z = new dfp1(bap1.a("CGiNgzoyE02Vb24="), 12);
+    public static final dfp1 N0 = new dfp1(bap1.a("D2CXkCwxAg=="), 13);
+    public static final dfp1 O0 = new dfp1(bap1.a("BmaFkCwxAg=="), 14);
+    public static final dfp1 P0 = new dfp1(bap1.a("CWCVmCwsE0acbm4="), 15);
+    public static final dfp1 Q0 = new dfp1(bap1.a("CWCVmCwsE0aTb34="), 16);
+    public static final dfp1 R0 = new dfp1(bap1.a("CWCVmCwsE0aScg=="), 17);
+    public static final dfp1 S0 = new dfp1(bap1.a("CWCVmCwsE0aFb3g="), 18);
+    public static final dfp1 T0 = new dfp1(bap1.a("B2aGhiY+Gkacbm4="), 19);
+    public static final dfp1 U0 = new dfp1(bap1.a("B2aGhiY+GkaScg=="), 20);
+    public static final dfp1 V0 = new dfp1(bap1.a("B2aGhiY+GkaTb34="), 21);
+    public static final dfp1 W0 = new dfp1(bap1.a("D3uOnw=="), 22);
+    public static final dfp1 X0 = new dfp1(bap1.a("D3yR"), 23);
+    public static final dfp1 Y0 = new dfp1(bap1.a("Dng="), 24);
+    public static final dfp1 Z0 = new dfp1(bap1.a("DWCPizo8GliOcw=="), 25);
+    public static final dfp1 a1 = new dfp1(bap1.a("DWCPizoyE02Vb24="), 26);
+    public static final dfp1 b1 = new dfp1(bap1.a("DGyVkCAzE1SYbn4="), 27);
+    public static final dfp1 c1 = new dfp1(bap1.a("AWeb"), 28);
+    public static final dfp1 d1 = new dfp1(bap1.a("AXM="), 29);
+    public static final dfp1 e1 = new dfp1(bap1.a("B2yPiDE3"), 30);
+    public static final dfp1 f1 = new dfp1(bap1.a("B2yPiDE3CUqJcg=="), 31);
+    public static final dfp1 g1 = new dfp1(bap1.a("B30="), 32);
+    public static final dfp1 h1 = new dfp1(bap1.a("BmiKijo8F1WRYmuu6g=="), 33);
+    public static final dfp1 i1 = new dfp1(bap1.a("BnyNkCwxAg=="), 34);
+    public static final dfp1 j1 = new dfp1(bap1.a("G2iChA=="), 35);
+    public static final dfp1 k1 = new dfp1(bap1.a("GnyOmyAgH1eJdg=="), 36);
+    public static final dfp1 l1 = new dfp1(bap1.a("GnyOmyAgBU2P"), 37);
+    public static final dfp1 m1 = new dfp1(bap1.a("GWyV"), 38);
+    public static final dfp1 n1 = new dfp1(bap1.a("GGyThiQzH0OY"), 39);
+    public static final dfp1 o1 = new dfp1(bap1.a("GHyDkCwxAg=="), 40);
+    public static final dfp1 p1 = new dfp1(bap1.a("GH6Anw=="), 41);
+    public static final dfp1 q1 = new dfp1(bap1.a("H2iKig=="), 42);
+    public static final dfp1 r1 = new dfp1(bap1.a("HmeRjiY0"), 43);
+    public static final dfp1 s1 = new dfp1(bap1.a("D3yRkCkwFViR"), 44);
+    public static final dfp1 t1 = new dfp1(bap1.a("GH6AnzozGVqcbA=="), 45);
+    public static final dfp1 u1 = new dfp1(bap1.a("GGyThiQzH0OYf3+k7wM="), 46);
+    public static final dfp1 v1 = new dfp1(bap1.a("CHuYnzEgFFWSY2E="), 47);
+    public static final dfp1 w1 = new dfp1(bap1.a("GGGIiTEgGlybdA=="), 48);
+    public static final dfp1 x1 = new dfp1(bap1.a("GGGIiTEgBFCaaH4="), 49);
+    public static final dfp1 y1 = new dfp1(bap1.a("HmeMjjcsHliRbA=="), 50);
+    public static final dfp1 z1 = new dfp1(bap1.a("BmiTnC0+GlU="), 51);
+    public static final dfp1 A1 = new dfp1(bap1.a("H3uY"), 52);
+    public static final dfp1 B1 = new dfp1(bap1.a("AmeSijcr"), 53);
+    public static final dfp1 C1 = new dfp1(bap1.a("GWyMgDM6"), 54);
+    public static final dfp1 D1 = new dfp1(bap1.a("D3yRkCkwFViRf2Og7A=="), 55);
+    public static final dfp1 E1 = new dfp1(bap1.a("GH6AnzozGVqcbHWk7Bo="), 56);
+    public static final dfp1 F1 = new dfp1(bap1.a("CmWNgCY+Alw="), 57);
+    public static final dfp1 G1 = new dfp1(bap1.a("GGyVkCkwFViRf2Og7A=="), 58);
+    public static final dfp1 H1 = new dfp1(bap1.a("GnyOmyAgElaIYmao"), 59);
+    public static final dfp1 I1 = new dfp1(bap1.a("Cm2FkCEwA1uRZQ=="), 60);
+    public static final dfp1 J1 = new dfp1(bap1.a("GHyDkCEwA1uRZQ=="), 61);
+    public static final dfp1 K1 = new dfp1(bap1.a("BnyNkCEwA1uRZQ=="), 62);
+    public static final dfp1 L1 = new dfp1(bap1.a("D2CXkCEwA1uRZQ=="), 63);
+    public static final dfp1 M1 = new dfp1(bap1.a("G2aW"), 64);
+    public static final dfp1 N1 = new dfp1(bap1.a("B2aG"), 65);
+}

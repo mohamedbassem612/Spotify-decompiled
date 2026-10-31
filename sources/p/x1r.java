@@ -1,0 +1,21 @@
+package p;
+
+/* JADX INFO: loaded from: /workspace/spotify-analysis/dex-input/classes.dex */
+public final class x1r extends y1r {
+    public final int a;
+
+    public x1r(int i) {
+        this.a = i;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof x1r) && this.a == ((x1r) obj).a;
+    }
+
+    public final int hashCode() {
+        return l1d.C(this.a);
+    }
+}
